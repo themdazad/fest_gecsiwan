@@ -8,7 +8,7 @@ export function Footer() {
       <Divider />
       <footer className="flex flex-wrap-reverse justify-center max-sm:text-center md:justify-between items-center py-4  px-[5%] max-sm:gap-4">
         <p className="text-[12px]">
-          © CHAHAL&apos;24,
+          © Annual Fest &apos;24,
           <br />
           Developed with <span className="text-red-600">❤</span> By{" "}
           <a className="font-semibold text-amber-400" target="_blank" href="#">

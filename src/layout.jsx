@@ -25,7 +25,6 @@ export const Layout = () => {
         transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
       >
-        <Contest_Overview />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -71,7 +70,7 @@ export const Hero_Section = () => {
           <h3 className="uppercase text-black pb-8">
             Presenting
           </h3>
-          <Image src="images/chahal_logo.svg" />
+          <Image src="images/revealsoon.svg" />
           {/* add google form link in button  */}
         </div>
 
@@ -82,33 +81,6 @@ export const Hero_Section = () => {
   );
 };
 
-export const Contest_Overview = () => {
-  return (
-    <>
-      <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-4">
-        <h2 className="text-2xl font-semibold">
-          <span className="text-amber-500 underline underline-offset-4">
-            Overview
-          </span>{" "}
-          of the DevConfig Contest
-        </h2>
-        <p className="text-lg">
-          Our contest is specifically designed to challenge and showcase the
-          skills of the participants. It is divided into three distinct
-          challenges, each focusing on key areas of software development.
-          <br />
-          The most exciting part of the contest is the reward! The top performer
-          in each event will be awarded a cash prize of ₹1000. Plus, they will
-          have the opportunity to join our enriching Internship Program.
-        </p>
-
-        <Button as={NavLink} to={"challanges"} variant="bordered">
-          Full details
-        </Button>
-      </section>
-    </>
-  );
-};
 
 export const Need_Assistance = () => {
   return (
