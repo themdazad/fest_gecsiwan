@@ -12,7 +12,7 @@ export default function NavigationBar() {
         <NavbarBrand>
 
           <NavLink to={"/"} className="font-bold text-inherit">
-            _DevConfig
+            Chahal&apos;24
           </NavLink>
         </NavbarBrand>
 
@@ -22,13 +22,13 @@ export default function NavigationBar() {
       {/*Menu for Desktop*/}
       <NavbarContent className="hidden space-x-2 sm:flex" justify="center">
         <NavbarItem>
-          <NavLink color="foreground" to={"/challanges"}  >
-            Challanges
+          <NavLink color="foreground" to={"/Events"}  >
+            Events
           </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <NavLink color="foreground" to={"/internship"}  >
-            Internship
+          <NavLink color="foreground" to={"/Gallery"}  >
+            Gallery
           </NavLink>
         </NavbarItem>
         <NavbarItem>
@@ -55,14 +55,14 @@ export default function NavigationBar() {
         className={`items-center bg-transparent  space-y-4 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/challanges"} >
-            Challanges
+          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/Events"} >
+            Events
           </NavLink>
         </NavbarItem>
 
         <NavbarItem>
-          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/internship"} >
-            Internship
+          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/Gallery"} >
+            Gallery
           </NavLink>
         </NavbarItem>
         <NavbarItem>

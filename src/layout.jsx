@@ -1,15 +1,16 @@
 /* eslint-disable react-refresh/only-export-components */
 // your root page
 import { motion } from "framer-motion";
-import { Button } from "@nextui-org/react";
+import { Button, Image } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { MdMarkEmailUnread } from "react-icons/md";
+import Timer from "./components/Event_Timer/Timer";
 
 export const Layout = () => {
-
   return (
     <div className="overflow-hidden space-y-8">
       <motion.div
+        className=" bg-[url('images/chahal_bg.webp')] bg-no-repeat bg-cover bg-center"
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 2 }}
@@ -31,9 +32,7 @@ export const Layout = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
-      >
-        <Intership_Overview />
-      </motion.div>
+      ></motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -49,41 +48,35 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-    {/*Hero Background Animation  */}
-    <div className="area" >
-            <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
-      <header className="context max-w-[1440px] py-24 grid place-content-center m-auto text-center  px-[5%] ">
-        <div className="hero-content space-y-2">
-          <h3 className="text-lg">
-           <span className="text-sky-600">DevConfig</span> presenting
+      {/*Hero Background Animation  */}
+      <div className="area">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <header className="context max-w-[1440px] h-screen py-24 grid place-content-center m-auto text-center justify-center  px-[5%] ">
+        <div className="hero-content items-center space-y-2">
+          <div className="flex justify-center bg-blend-multiply">
+            <Image src="images/gecsiwanlogo.png" height={80} width={80} className="bg-blend-multiply"/>
+          </div>
+          <h3 className="uppercase text-black pb-8">
+            Presenting
           </h3>
-          <h1 className="hero-heading tracking-tight  font-bold leading-tight text-6xl ">
-            Contest and <span className=" text-sky-600">Internship</span> Program{" "}
-            <br />
-            2024
-          </h1>
+          <Image src="images/chahal_logo.svg" />
           {/* add google form link in button  */}
-          <Button
-            variant="bordered"
-            radius="full"
-            size="lg"
-            color="primary"
-          >
-            Participate
-          </Button>
         </div>
+
+        {/* Timer  */}
+        <Timer/>
       </header>
     </>
   );
@@ -94,7 +87,7 @@ export const Contest_Overview = () => {
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
-          <span className="text-sky-600 underline underline-offset-4">
+          <span className="text-amber-500 underline underline-offset-4">
             Overview
           </span>{" "}
           of the DevConfig Contest
@@ -116,46 +109,19 @@ export const Contest_Overview = () => {
     </>
   );
 };
-export const Intership_Overview = () => {
-  return (
-    <>
-      <section className="max-w-[1920px] m-auto px-[5%] md:px-[10%] space-y-4">
-        <h2 className="text-2xl font-semibold">
-          Introducing the DevConfig{" "}
-          <span className="text-sky-600 underline underline-offset-4">
-            Internship
-          </span>{" "}
-          Program
-        </h2>
-        <p className="text-lg">
-          The DevConfig Internship Program offers a unique opportunity for the
-          top 50 performers in the contest. These top talents will be selected
-          based on the quality of their project submissions. We will evaluate
-          the projects on several criteria including creativity, functionality,
-          and technical execution. The selected participants are offesky a
-          3-month internship program with DevConfig.
-        </p>
 
-        <Button as={NavLink} to={"/internship"} variant="bordered">
-          Know More
-        </Button>
-      </section>
-    </>
-  );
-};
 export const Need_Assistance = () => {
   return (
     <>
       <section className="max-w-[1920px] text-center m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Need{" "}
-          <span className="text-sky-600 underline underline-offset-4">
+          <span className="text-amber-500 underline underline-offset-4">
             Support
           </span>
           ? We&apos;re Here to Help
         </h2>
         <p className="text-lg">
-          At DevConfig, we believe in the power of support and guidance.
           We&apos;re committed to ensuring that your experience with us is
           smooth and enriching. If you have any queries or need assistance at
           any step, please contact us
@@ -168,7 +134,7 @@ export const Need_Assistance = () => {
           variant="bordered"
           startContent={<MdMarkEmailUnread />}
         >
-          support.devconfig@gmail.com
+          fest.gecsiwan@gmail.com
         </Button>
       </section>
     </>
