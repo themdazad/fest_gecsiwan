@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   
   <NextUIProvider>
       <BrowserRouter>
-      <main className="dark:dark text-foreground bg-background bg-[url('/images/blur_bg.png')] bg-cover">
+      <main className="dark:dark text-foreground">
     
         <Path />  {/* Router */}
         <Footer/>
