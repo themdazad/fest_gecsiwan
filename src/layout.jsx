@@ -8,7 +8,7 @@ import Timer from "./components/Event_Timer/Timer";
 
 export const Layout = () => {
   return (
-    <div className="overflow-hidden space-y-8">
+    <div className="overflow-hidden ">
       <motion.div
         className=" bg-[url('images/chahal_bg.webp')] bg-no-repeat bg-cover bg-center"
         initial={{ opacity: 0, y: 60 }}
@@ -32,7 +32,7 @@ export const Layout = () => {
         transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
       ></motion.div>
-      <motion.div
+      <motion.div className="bg-[#1B1601] "
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
@@ -62,7 +62,7 @@ export const Hero_Section = () => {
           <li></li>
         </ul>
       </div>
-      <header className="context max-w-[1440px] h-screen py-24 grid place-content-center m-auto text-center justify-center  px-[5%] ">
+      <header className="context max-w-[1440px] h-screen py-24 grid place-content-center m-auto text-center justify-center justify-items-center  px-[5%] ">
         <div className="hero-content items-center space-y-2">
           <div className="flex justify-center bg-blend-multiply">
             <Image src="images/gecsiwanlogo.png" height={80} width={80} className="bg-blend-multiply"/>
@@ -74,8 +74,16 @@ export const Hero_Section = () => {
           {/* add google form link in button  */}
         </div>
 
+        <span className="text-lg sm:text-2xl font-semibold text-white text-center tracking-widest px-2">
+          Coming Soon
+        </span>
         {/* Timer  */}
         <Timer/>
+          
+        <Button as={NavLink} to={"/Events"} className=" justify-items text-amber-400" color="warning" size="lg" variant="ghost" con endContent={"s"}>
+        Participate ↗
+      </Button>  
+
       </header>
     </>
   );

@@ -10,7 +10,7 @@ import NavigationBar from "./components/Nav/NavigationBar.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <NextUIProvider>
     <BrowserRouter>
-      <main className="bg-black dark">
+      <main className="dark:dark text-foreground">
         <NavigationBar />
         <Path /> {/* Router */}
         <Footer />
