@@ -10,7 +10,7 @@ export const Layout = () => {
   return (
     <div className="overflow-hidden ">
       <motion.div
-        className=" bg-[url('images/chahal_bg.webp')] bg-no-repeat bg-cover bg-center"
+        className=" bg-hero-pattern bg-no-repeat bg-cover bg-center"
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 2 }}

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export const Events = () => {
   return (
     <div className="min-h-screen text-white">
-        <div className="header px-[5%] h-[300px] sm: bg-[url('images/event_bg.png')] bg-no-repeat bg-cover grid place-content-center pt-16  object-cover ">
+        <div className="header px-[5%] h-[300px] sm: bg-eventsbg bg-no-repeat bg-cover grid place-content-center pt-16  object-cover ">
           <Image src="images/EVENTS_TEXT.svg" height={40}/>
         </div>
         <div className="card-section p-10 bg-black grid   grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center justify-center">
