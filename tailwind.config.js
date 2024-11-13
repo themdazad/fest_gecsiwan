@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 const { nextui } = require("@nextui-org/react");
-const flowbite = require("flowbite-react/tailwind");
 
 export default {
   content: [
@@ -18,6 +17,6 @@ export default {
     },
   },
   darkMode: "class",
-  plugins: [nextui(),   flowbite.plugin(),]
+  plugins: [nextui(), ]
 }
 
