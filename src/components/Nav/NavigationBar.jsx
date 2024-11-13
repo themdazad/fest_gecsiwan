@@ -1,93 +1,29 @@
-// eslint-disable-next-line no-unused-vars
-import { Button, Link, Navbar, NavbarBrand, NavbarMenu, NavbarContent, NavbarItem, NavbarMenuToggle } from "@nextui-org/react";
+import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
-import ThemeSwitch from "../Theme/ThemeSwitch";
 
 export default function NavigationBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <Navbar isMenuOpen={isMenuOpen} shouldHideOnScroll>
-      <NavbarContent>
-        <NavbarBrand>
-
-          <NavLink to={"/"} className="font-bold text-inherit">
-            Chahal&apos;24
+    <motion.div className="m-auto z-20 fixed top-4 w-full bg-transparent h-[60px] grid justify-center "
+      initial={{ opacity: 0, y: -60 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 2 }}
+    >
+      <nav >
+        <div className="nav-menu px-8 shadow-xl h-full rounded-[100px] bg-amber-400 flex justify-center items-center space-x-4">
+          <NavLink to="/" className="text-black text-lg font-semibold">
+            Home
           </NavLink>
-        </NavbarBrand>
-
-        <NavbarMenuToggle className="sm:hidden" onClick={() => { setIsMenuOpen(!isMenuOpen) }} />
-      </NavbarContent>
-
-      {/*Menu for Desktop*/}
-      <NavbarContent className="hidden space-x-2 sm:flex" justify="center">
-        <NavbarItem>
-          <NavLink color="foreground" to={"/Events"}  >
+          <NavLink to="/Events" className="text-black text-lg font-semibold">
             Events
           </NavLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavLink color="foreground" to={"/Gallery"}  >
+          <NavLink to="/" className="text-black text-lg font-semibold">
             Gallery
           </NavLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavLink color="foreground" to={"/about"} >
-            About us
+          <NavLink to="/about" className="text-black text-lg font-semibold">
+            About
           </NavLink>
-        </NavbarItem>
-
-        <NavbarItem>
-          <Button color="primary"
-            as={NavLink}
-            to="/Login"
-
-            radius="md"
-            variant="flat"
-          >
-            Register Now {"🎉"}
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
-
-      {/*Menu for Mobile*/}
-      <NavbarMenu
-        className={`items-center bg-transparent  space-y-4 text-xl justify-center md:hidden sm:flex `}
-      >
-        <NavbarItem>
-          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/Events"} >
-            Events
-          </NavLink>
-        </NavbarItem>
-
-        <NavbarItem>
-          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/Gallery"} >
-            Gallery
-          </NavLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/about"} >
-            About us
-          </NavLink>
-        </NavbarItem>
-
-        <NavbarItem>
-          <Button
-            as={NavLink}
-            to="/Register"
-            color="primary"
-            radius="full"
-            variant="flat"
-            size="lg"
-            onClick={() => { setIsMenuOpen(!isMenuOpen) }}
-          >
-            Register Now
-          </Button>
-        </NavbarItem>
-      </NavbarMenu>
-      <span className="max-sm:hidden">
-        <ThemeSwitch />
-      </span>
-    </Navbar>
+        </div>
+      </nav>
+    </motion.div>
   );
 }

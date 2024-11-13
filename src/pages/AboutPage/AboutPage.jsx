@@ -1,12 +1,12 @@
 import { User, Link } from "@nextui-org/react";
 import { Need_Assistance } from "../../layout";
 // icons
-import { BsTwitter,BsGithub,BsLinkedin,BsInstagram } from "react-icons/bs";
+import {BsGithub,BsLinkedin,BsInstagram } from "react-icons/bs";
 
 export const AboutPage = () => {
   return (
     <div className="min-h-[100vh] px-[5%] md:px-[10%] space-y-12 py-16 grid place-content-center">
-      <div className="text-center text-4xl font-bold text-sky-600 underline underline-offset-4">
+      <div className="text-center text-4xl font-bold text-amber-400 underline underline-offset-4">
         Developers
       </div>
       <div className="our_team  text-center flex max-sm:flex-col gap-6 justify-center ">

@@ -4,17 +4,17 @@ import Path from "./routes.jsx";
 import "./index.css";
 import "./styles/HomeAnimation.css";
 import { BrowserRouter } from "react-router-dom";
-import { Footer} from "./components/Footer/Footer.jsx";
+import { Footer } from "./components/Footer/Footer.jsx";
+import NavigationBar from "./components/Nav/NavigationBar.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  
   <NextUIProvider>
-      <BrowserRouter>
-      <main className="dark:dark text-foreground">
-    
-        <Path />  {/* Router */}
-        <Footer/>
+    <BrowserRouter>
+      <main className="bg-black dark">
+        <NavigationBar />
+        <Path /> {/* Router */}
+        <Footer />
       </main>
-  </BrowserRouter>
-    </NextUIProvider>
+    </BrowserRouter>
+  </NextUIProvider>
 );
