@@ -10,16 +10,16 @@ export default function NavigationBar() {
     >
       <nav >
         <div className="nav-menu px-8 shadow-xl h-full rounded-[100px] bg-amber-400 flex justify-center items-center space-x-4">
-          <NavLink to="/" className="text-black text-lg font-semibold">
+          <NavLink to="/" className="text-black text-lg ">
             Home
           </NavLink>
-          <NavLink to="/Events" className="text-black text-lg font-semibold">
+          <NavLink to="/Events" className="text-black text-lg ">
             Events
           </NavLink>
-          <NavLink to="/" className="text-black text-lg font-semibold">
+          <NavLink to="/" className="text-black text-lg ">
             Gallery
           </NavLink>
-          <NavLink to="/about" className="text-black text-lg font-semibold">
+          <NavLink to="/about" className="text-black text-lg ">
             About
           </NavLink>
         </div>
