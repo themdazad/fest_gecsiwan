@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 // Pages 
 import { Layout } from "./layout";
 import { AboutPage } from "./pages/AboutPage/AboutPage.jsx";
-import { Events } from "./pages/Events/pages.jsx";
+import Events from "./pages/Events/pages.jsx";
 
 export default function Path() {
   return (

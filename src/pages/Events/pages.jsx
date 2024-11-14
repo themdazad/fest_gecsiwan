@@ -1,42 +1,62 @@
-/* eslint-disable react/prop-types */
-import {Card, CardHeader, CardBody, Image } from "@nextui-org/react";
-import { NavLink } from "react-router-dom";
+import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 
-export const Events = () => {
+export default function Events() {
+  const list = [
+    {
+      title: "Carrom",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppYOILObm8X95XX9jgrzH1stYvLaM-e_sWg&s",
+      price: "Know More",
+    },
+    {
+      title: "Kabaddi",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5crFxPhwmhZLYS3ECFNPUrnyMCONa7xmGCQ&s",
+      price: "Know More",
+    },
+    {
+      title: "Cricket",
+      img: "https://easy-peasy.ai/cdn-cgi/image/quality=70,format=auto,width=300/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/c7ca519b-a7e5-4a70-b046-f5fc6cdb0553/a95c015d-6b42-4e4f-8cbc-cff9edbb9644.png",
+      price: "Know More",
+    },
+    {
+      title: "Football",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESodR9O2LBnvO8UlnQWOH2IINxs22emhmaFReFDANSZ1aBLGjU-yZqpV_fGzEqaPhq38&usqp=CAU",
+      price: "Know More",
+    },
+    {
+      title: "Chess",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSroS1o8Sy7WcL0EWpej34JbmiajAx9oKOuQ&s",
+      price: "Know More",
+    },
+  ];
+
   return (
-    <div className="min-h-screen text-white">
-        <div className="header px-[5%] h-[300px] sm: bg-eventsbg bg-no-repeat bg-cover grid place-content-center pt-16  object-cover ">
-          <Image src="images/EVENTS_TEXT.svg" height={40}/>
-        </div>
-        <div className="card-section p-10 bg-black grid   grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center justify-center">
-            <Cards link={"https://forms.gle/CXQhUdCg6nD52CX86"} tittle={"Footbal"} image={"https://thumbs.dreamstime.com/z/sport-template-soccer-football-ball-background-design-place-your-content-poster-print-39871220.jpg"}/>
-            <Cards link={"https://docs.google.com/forms/d/e/1FAIpQLSckiFxeNKuolr6_091AFRPwUhElxi6G2YyjiX2yahyPdm0X1w/viewform?usp=sf_link"} tittle={"Badminton"} image={"https://imgcdn.stablediffusionweb.com/2024/4/9/16fa90ea-0cab-47cd-9563-965cd4135b28.jpg"}/>
-            <Cards link={"/"} tittle={"Art & Craft"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogRiDSWchZ0TYk39AQK8nFc_BWOmG3O3PQA&s"}/>
-            <Cards tittle={"Carrom"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQst87nT_h9_QDTQWoyVvTrZxQn90E_5z-_KGLs6d7glW5qEIxteZoBEn09vMjIcplb14I&usqp=CAU"}/>
-            <Cards tittle={"Cricket"} image={"https://pics.craiyon.com/2024-09-23/FhlbFqCIS9yPYW_fntOnJQ.webp"}/>
-            <Cards tittle={"Fun Cricket"} image={"https://wcc1-website-assets.s3.ap-southeast-1.amazonaws.com/s3fs-public/batattack.png"}/>
-            <Cards tittle={"Volleyball"} image={"https://t3.ftcdn.net/jpg/01/71/81/70/360_F_171817041_DkMe5qd77ba9cUPs2cHqPFsWtIFVy0o1.jpg"}/>
-            <Cards tittle={"Singing"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtYD8swU5DabKYzdh_JINUuOhyXkkEDcCvVkYrUHtYUXxD11ojwI8ywztDFSxRirgzMoo&usqp=CAU"}/>
-            <Cards tittle={"Dance"} image={"https://img.freepik.com/premium-photo/colorful-design-with-dancer_1274714-27143.jpg?w=360"}/>
-            <Cards/>
-        </div>
-         </div>
-  )
-} 
-const Cards = ({tittle,image,link}) => {
-  return (
-    <Card as={NavLink} to={link} className="py-4 bg-amber-400/10 hover:bg-amber-400 hover:text-black ">
-      <CardBody className="overflow-visible ">
-        <Image
-          alt="Card background"
-          className="object-cover aspect-square rounded-md "
-          src={image}
-          width={270}
-        />
-      </CardBody>
-      <CardHeader className="text-center pb-0 pt-2 px-4 flex-col">
-        <h4 className=" font-bold text-xl">{tittle}</h4>
-      </CardHeader>
-    </Card>
+    <div className="max-w-[1980px] m-auto px-[5%] my-12 gap-6 grid grid-cols-2 sm:grid-cols-5">
+      {list.map((item, index) => (
+        <Card
+          className="relative hover:text-amber-400 aspect-square"
+          shadow="sm"
+          key={index}
+          isPressable
+          onPress={() => console.log("item pressed")}
+        >
+          <CardBody className="absolute z-10 overflow-visible p-0">
+            <Image
+              shadow="sm"
+              radius="lg"
+              width="100%"
+              alt={item.title}
+              className="w-full object-cover"
+              src={item.img}
+            />
+          </CardBody>
+          <CardFooter className="absolute  bottom-0 left-0 right-0 z-20 p-4 bg-gradient-to-t from-black to-transparent text-white">
+            <div className="w-full flex justify-between items-center">
+              <b className="text-lg">{item.title}</b>
+              <p className="text-default-500">{item.price}</p>
+            </div>
+          </CardFooter>
+        </Card>
+      ))}
+    </div>
   );
 }
