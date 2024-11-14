@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('images/chahal_bg.webp')",
-        'eventsbg': "url('images/event_bg.png')",
+        'hero-pattern': "url('/images/chahal_bg.webp')",
+        'eventsbg': "url('/images/event_bg.png')",
       },
     },
   },
