@@ -7,7 +7,7 @@ export const AboutPage = () => {
   return (
     <div className="min-h-[100vh] px-[5%] md:px-[10%] space-y-12 py-16 grid place-content-center">
       <div className="text-center text-4xl font-bold text-amber-400 underline underline-offset-4">
-        Developers
+        Developer
       </div>
       <div className="our_team  text-center flex max-sm:flex-col gap-6 justify-center ">
        
@@ -16,7 +16,7 @@ export const AboutPage = () => {
           name="Md Azad"
           description={
             <div className="text-left">
-              <p>Developer | Graphic Desinger</p>
+              <p>MERN Developer | UX/UI Desinger</p>
               <Link
                 className="m-1 "
                 target="_blank"
@@ -52,19 +52,6 @@ export const AboutPage = () => {
           }}
         />
 
-        <User
-          className=" min-w-fit"
-          name="Unknown"
-          description={
-            <div className="text-left">
-              <p>Coming Soon</p>
-            </div>
-          }
-          avatarProps={{
-            src: "",
-            size: "lg",
-          }}
-        />
       </div>
 
       <Need_Assistance />

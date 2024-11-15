@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function NavigationBar() {
   return (
-    <motion.div className="m-auto z-20 fixed top-4 w-full bg-transparent h-[60px] grid justify-center "
+    <motion.div className="m-auto z-[999] fixed top-4 w-full bg-transparent h-[60px] grid justify-center "
       initial={{ opacity: 0, y: -60 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 2 }}
@@ -13,7 +13,7 @@ export default function NavigationBar() {
           <NavLink to="/" className="text-black text-lg ">
             Home
           </NavLink>
-          <NavLink to="/Events" className="text-black text-lg ">
+          <NavLink to="/EventDetails" className="text-black text-lg ">
             Events
           </NavLink>
           <NavLink to="/" className="text-black text-lg ">
