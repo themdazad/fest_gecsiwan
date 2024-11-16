@@ -3,14 +3,12 @@ import { BsFileRuledFill } from "react-icons/bs";
 import { GiTargetPrize } from "react-icons/gi";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
-import {
-  Button
-} from '@nextui-org/react';
+import { Button } from '@nextui-org/react';
 import { SiGoogleforms } from "react-icons/si";
 import Coordinators from './EventCoordinators';
 
 
-const EventDetailsPage = () => {
+const Carrom = () => {
   return (
     <section>
       {/* Event banner section  */}
@@ -21,7 +19,7 @@ const EventDetailsPage = () => {
         
         <div className="absolute flex max-md:flex-col  justify-between items-center  px-[5%] bottom-0 left-0 right-0 z-20 py-6 bg-gradient-to-t from-black to-transparent text-white">
           {/* some tittle will add here */}
-          <h2 className='text-5xl max-md:my-4 md:text-6xl font-semibold max-md:text-center'>E-Sport Game</h2>
+          <h2 className='text-5xl max-md:my-4 md:text-6xl font-semibold max-md:text-center'>Cricket</h2>
           <div className="date flex items-center space-x-4">
             <p className='text-amber-400'>DD-MM-YYYY</p>
             <Button variant='warning' size='md' endContent={<SiGoogleforms />}>JOIN</Button>
@@ -34,7 +32,7 @@ const EventDetailsPage = () => {
       <div className="px-[5%] space-y-16 event_details py-6">
         {/* Event Description  */}
         <div className="EventDescription space-y-2">
-          <h1 className='text-amber-400 text-3xl  font-semibold'>About E-Sport</h1>
+          <h1 className='text-amber-400 text-3xl  font-semibold'>Cricket Game</h1>
           <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti, quam perspiciatis ipsa accusantium tempore inventore soluta dolore ratione commodi voluptate consectetur ipsam aut quod.</p>
         </div>
 
@@ -78,4 +76,4 @@ const EventDetailsPage = () => {
     </section>
   )
 }
-export default EventDetailsPage;
+export default Carrom;
