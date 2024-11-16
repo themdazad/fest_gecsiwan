@@ -7,7 +7,6 @@ const EventTimeline = () => {
        Annual Events
       </h1>
       <div className="timeline">
-        
        <Events/>
       </div>
     </section>

@@ -1,8 +1,5 @@
 // icons
-import { FaInstagram, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { CgScrollH } from "react-icons/cg";
-import { IoIosCall } from "react-icons/io";
-import { Button } from "@nextui-org/react";
 
 const Coordinators = () => {
   return (
@@ -31,7 +28,7 @@ const Coordinators = () => {
             <div className="space-y-0.5">
               <p className="text-lg text-white font-semibold">Person 1</p>
               <p className="text-slate-400 font-medium">
-                <a href="tel:+911234567890" startContent={<IoIosCall />}>
+                <a href="tel:+911234567890">
                   +91 1234567890
                 </a>
               </p>
@@ -49,7 +46,7 @@ const Coordinators = () => {
             <div className="space-y-0.5">
               <p className="text-lg text-white font-semibold">Person 2</p>
               <p className="text-slate-400 font-medium">
-                <a href="tel:+911234567890" startContent={<IoIosCall />}>
+                <a href="tel:+911234567890">
                   +91 1234567890
                 </a>
               </p>
@@ -67,7 +64,7 @@ const Coordinators = () => {
             <div className="space-y-0.5">
               <p className="text-lg text-white font-semibold">Person-3</p>
               <p className="text-slate-400 font-medium">
-                <a href="tel:+911234567890" startContent={<IoIosCall />}>
+                <a href="tel:+911234567890">
                   +91 1234567890
                 </a>
               </p>

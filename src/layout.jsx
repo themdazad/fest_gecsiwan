@@ -60,6 +60,12 @@ export const Hero_Section = () => {
         </ul>
       </div>
       <header className="context max-w-[1440px] h-screen py-24 grid place-content-center m-auto text-center justify-center justify-items-center  px-[5%] ">
+        <div className="Main_Content">
+
+        </div>
+        <div className="forground_layer">
+
+        </div>
         <div className="hero-content items-center space-y-2">
           <div className="flex justify-center bg-blend-multiply">
             <Image src="images/gecsiwanlogo.png" height={80} width={80} className="bg-blend-multiply"/>
