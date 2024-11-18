@@ -2,6 +2,7 @@
 const { nextui } = require("@nextui-org/react");
 
 export default {
+  
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -15,7 +16,7 @@ export default {
       },
     },
   },
-  darkMode: "class",
+  darkMode: 'className', // Enable dark mode using a class
   plugins: [nextui(), ]
 }
 

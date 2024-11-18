@@ -1,6 +1,5 @@
 import { Divider } from "@nextui-org/react";
 import { FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
-import ThemeSwitch from "../Theme/ThemeSwitch";
 
 export function Footer() {
   return (
@@ -16,7 +15,7 @@ export function Footer() {
           </a>
         </p>
         <div className="icons flex items-center space-x-4 text-2xl">
-            <ThemeSwitch/>
+            
           <a href="http://" target="_blank">
             <FaInstagram />
           </a>

@@ -22,12 +22,14 @@ import KhoKho from "./pages/AnnualEvents/EventLists/KhoKho.jsx";
 import TugOfWar from "./pages/AnnualEvents/EventLists/TugOfWar.jsx";
 import TableTennis from "./pages/AnnualEvents/EventLists/TableTennis.jsx";
 import Skipping from "./pages/AnnualEvents/EventLists/Skipping.jsx";
+import { EventDetails } from "./pages/EventDetails/EventDetails.jsx";
 
 export default function Path() {  
   return (
     <Routes>
       {/* default home page  */}
       <Route path="/" element={<Layout />} />
+      <Route path="/EventDetails" element={<EventDetails/>} />
 
       {/* Navigate using navbar  */}
       {/* All event routes  */}

@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Button, Image } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { MdMarkEmailUnread } from "react-icons/md";
-import Timer from "./components/Event_Timer/Timer";
 import EventTimeline from "./components/EventTimeline/EventTimeline";
 
 export const Layout = () => {
@@ -77,13 +76,11 @@ export const Hero_Section = () => {
           {/* add google form link in button  */}
         </div>
 
-        <span className="text-lg sm:text-2xl font-semibold text-white text-center tracking-widest px-2">
+        <span className="text-lg sm:text-6xl my-6 font-semibold text-white text-center tracking-widest px-2">
           Coming Soon
         </span>
-        {/* Timer  */}
-        <Timer/>
-          
-        <Button as={NavLink} to={"/Events"} className=" justify-items text-amber-400" color="warning" size="lg" variant="ghost" con endContent={"s"}>
+                
+        <Button as={NavLink} to={"/Events"}  className=" justify-items text-amber-400" color="warning" size="lg" variant="faded" con endContent={"s"}>
         Participate ↗
       </Button>  
 

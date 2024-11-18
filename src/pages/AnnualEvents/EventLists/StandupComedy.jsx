@@ -1,15 +1,38 @@
 import Template from "../EventPage";
 
-
 const data =  { 
-    Tittle: "Standup Comedy",
-    Image: "https://img.freepik.com/free-photo/world-collapse-doomsday-scene-digital-painting_456031-63.jpg?t=st=1731690105~exp=1731693705~hmac=d133bb73e189c8fdea3143c2afea3d8ceb588244277496f3e8ddcea620f55a5a&w=1800')] bg-center bg-cover bg-no-repeat relative header w-full h-[400px]",
-    Form: "https://forms.gle/2bsqzJxNjTWunEieA",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
+    Tittle: "Carrom",
+    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+    Date: "DD-MM-2024",
+    Prize: "000.00",
+    Location: "Campus of GEC, Siwan",
+    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
   }
+
+  const GameRules = [
+    "Rule 1: Add your rules here", 
+    "Rule 2: Add some more rules here",
+  ];
+
+  const CoordinatorsName =[
+    {
+      "name": "John Doe",
+      "phone": "1234567890"
+    },
+    {
+      "name": "Jane Doe",
+      "phone": "0987654321"
+    },
+    {
+      "name": "Jane Doe",
+      "phone": "0987654321"
+    }
+  ]
 
 const StandupComedy = () => {
   return (
-  <Template Data = {data}/>
+  <Template Data = {data} GameRules={GameRules} CoordinatorsName={CoordinatorsName}/>
   )
 }
 export default StandupComedy;
