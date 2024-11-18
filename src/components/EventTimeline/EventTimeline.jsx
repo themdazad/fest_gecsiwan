@@ -1,4 +1,4 @@
-import Events from "../../pages/Events/pages";
+import Events from "../../pages/AnnualEvents/EventCards";
 
 const EventTimeline = () => {
   return (

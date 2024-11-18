@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 import { BsFileRuledFill } from "react-icons/bs";
 import { GiTargetPrize } from "react-icons/gi";
@@ -5,24 +6,25 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { Button } from '@nextui-org/react';
 import { SiGoogleforms } from "react-icons/si";
-import Coordinators from './EventCoordinators';
+import Coordinators from './EventLists/EventCoordinators';
+import { NavLink } from "react-router-dom";
 
-
-const Carrom = () => {
+const Template = ({Data}) => {
+    console.log(Data.Image)
   return (
     <section>
       {/* Event banner section  */}
-      <div className="bg-[url('https://img.freepik.com/free-photo/world-collapse-doomsday-scene-digital-painting_456031-63.jpg?t=st=1731690105~exp=1731693705~hmac=d133bb73e189c8fdea3143c2afea3d8ceb588244277496f3e8ddcea620f55a5a&w=1800')] bg-center bg-cover bg-no-repeat relative header w-full h-[400px]">
+      <div className="bg-center bg-cover bg-no-repeat relative header w-full h-[600px]"  style={{ backgroundImage: `url(${Data,Image})` }}>
         <div className="  absolute z-10 overflow-visible p-0">
           {/* background section for event  */}
         </div>
         
         <div className="absolute flex max-md:flex-col  justify-between items-center  px-[5%] bottom-0 left-0 right-0 z-20 py-6 bg-gradient-to-t from-black to-transparent text-white">
           {/* some tittle will add here */}
-          <h2 className='text-5xl max-md:my-4 md:text-6xl font-semibold max-md:text-center'>Cricket</h2>
+          <h2 className='text-5xl max-md:my-4 md:text-6xl font-semibold max-md:text-center'>{Data.Tittle}</h2>
           <div className="date flex items-center space-x-4">
             <p className='text-amber-400'>DD-MM-YYYY</p>
-            <Button variant='warning' size='md' endContent={<SiGoogleforms />}>JOIN</Button>
+            <Button as={NavLink} to={Data.Form} variant='warning' size='md' endContent={<SiGoogleforms />}>JOIN</Button>
           </div>
         </div>
       </div>
@@ -32,7 +34,7 @@ const Carrom = () => {
       <div className="px-[5%] space-y-16 event_details py-6">
         {/* Event Description  */}
         <div className="EventDescription space-y-2">
-          <h1 className='text-amber-400 text-3xl  font-semibold'>Cricket Game</h1>
+          <h1 className='text-amber-400 text-3xl  font-semibold'>About E-Sport</h1>
           <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti, quam perspiciatis ipsa accusantium tempore inventore soluta dolore ratione commodi voluptate consectetur ipsam aut quod.</p>
         </div>
 
@@ -61,7 +63,7 @@ const Carrom = () => {
               <p> :At Purani Haweli, IIT Siwan</p>
             </div>
             {/* Event Participation Button  */}
-            <Button variant='ghost' size='lg' startContent={<SiGoogleforms />}>Google Form</Button>
+            <Button as={NavLink} to={Data.Form} variant='ghost' size='lg' startContent={<SiGoogleforms />}>Google Form</Button>
           </div>
         </section>
 
@@ -76,4 +78,4 @@ const Carrom = () => {
     </section>
   )
 }
-export default Carrom;
+export default Template;

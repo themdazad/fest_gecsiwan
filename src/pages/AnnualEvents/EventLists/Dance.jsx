@@ -1,15 +1,15 @@
-import Template from "./Template";
+import Template from "../EventPage";
 
 
 const data =  { 
-    Tittle: "Athletes",
+    Tittle: "Dance",
     Image: "https://forms.gle/tqFpvXNPhua8uphGA",
     Form: "https://forms.gle/q7XjJaWeG8GuzGNNA",
   }
 
-const Athletes = () => {
+const Dance = () => {
   return (
   <Template Data = {data}/>
   )
 }
-export default Athletes;
+export default Dance;
