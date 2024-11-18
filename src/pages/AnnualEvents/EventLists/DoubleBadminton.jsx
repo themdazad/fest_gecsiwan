@@ -1,13 +1,13 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://s10896.pcdn.co/wp-content/uploads/2024/01/Pembroke-Generic-Badminton-Tournament-Web-Event-Header.jpg",
+    Tittle: "Badminton Doubles",
+    Description:"A fast-paced and exciting competition where players or teams battle for supremacy on the court. In badminton, athletes use lightweight rackets to hit a shuttlecock over a net, aiming to score points by making the shuttlecock land in the opponent’s side of the court. The tournament can feature singles or doubles matches, with players showcasing speed, agility, precision, and strategy. Whether it’s a friendly competition or a high-stakes event, badminton tournaments test reflexes and endurance, providing thrilling moments for both participants and spectators.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [

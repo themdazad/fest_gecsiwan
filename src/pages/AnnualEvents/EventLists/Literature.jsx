@@ -2,13 +2,13 @@ import Template from "../EventPage";
 
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://static.vecteezy.com/system/resources/previews/024/576/416/large_2x/abundance-of-old-literature-on-wooden-shelves-generated-by-ai-photo.jpg",
+    Tittle: "Literature",
+    Description:"It’s a celebration of thought, expression, and creativity, where everyone is encouraged to not just read but to feel the words, to live in the moment of the narrative, and to engage with the audience in a way that only literature can.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [

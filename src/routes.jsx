@@ -24,6 +24,29 @@ import TableTennis from "./pages/AnnualEvents/EventLists/TableTennis.jsx";
 import Skipping from "./pages/AnnualEvents/EventLists/Skipping.jsx";
 import { EventDetails } from "./pages/EventDetails/EventDetails.jsx";
 
+const events = [
+  { path: "/Events/Carrom", component: Carrom },
+  { path: "/Events/Kabaddi", component: Kabaddi },
+  { path: "/Events/Cricket", component: Cricket },
+  { path: "/Events/Football", component: Football },
+  { path: "/Events/Chess", component: Chess },
+  { path: "/Events/Music", component: Music },
+  { path: "/Events/Dance", component: Dance },
+  { path: "/Events/Drama", component: Drama },
+  { path: "/Events/ArtAndCraft", component: ArtAndCraft },
+  { path: "/Events/SingleBadminton", component: SingleBadminton },
+  { path: "/Events/DoubleBadminton", component: DoubleBadminton },
+  { path: "/Events/StandupComedy", component: StandupComedy },
+  { path: "/Events/Literature", component: Literature },
+  { path: "/Events/FunCricket", component: FunCricket },
+  { path: "/Events/Volleyball", component: Volleyball },
+  { path: "/Events/Athletes", component: Athletes },
+  { path: "/Events/KhoKho", component: KhoKho },
+  { path: "/Events/TugOfWar", component: TugOfWar },
+  { path: "/Events/TableTennis", component: TableTennis },
+  { path: "/Events/Skipping", component: Skipping },
+];
+
 export default function Path() {  
   return (
     <Routes>
@@ -33,27 +56,9 @@ export default function Path() {
 
       {/* Navigate using navbar  */}
       {/* All event routes  */}
-      <Route path="/Events/Carrom" element={<Carrom />} />
-      <Route path="/Events/Kabaddi" element={<Kabaddi />} />
-      <Route path="/Events/Cricket" element={<Cricket />} />
-      <Route path="/Events/Football" element={<Football />} />
-      <Route path="/Events/Chess" element={<Chess />} />
-      <Route path="/Events/Music" element={<Music />} />
-      <Route path="/Events/Dance" element={<Dance />} />
-      <Route path="/Events/Drama" element={<Drama />} />
-      <Route path="/Events/ArtAndCraft" element={<ArtAndCraft />} />
-      <Route path="/Events/SingleBadminton" element={<SingleBadminton />} />
-      <Route path="/Events/DoubleBadminton" element={<DoubleBadminton />} />
-      <Route path="/Events/StandupComedy" element={<StandupComedy />} />
-      <Route path="/Events/Literature" element={<Literature />} />
-      <Route path="/Events/FunCricket" element={<FunCricket />} />
-      <Route path="/Events/Volleyball" element={<Volleyball />} />
-      <Route path="/Events/Kabaddi" element={<Kabaddi />} />
-      <Route path="/Events/Athletes" element={<Athletes />} />
-      <Route path="/Events/KhoKho" element={<KhoKho />} />
-      <Route path="/Events/TugOfWar" element={<TugOfWar />} />
-      <Route path="/Events/TableTennis" element={<TableTennis />} />
-      <Route path="/Events/Skipping" element={<Skipping />} />
+      {events.map((event, index) => (
+          <Route key={index} path={event.path} element={<event.component />} />
+        ))}
 
       <Route path="/about" element={<AboutPage />} />
 

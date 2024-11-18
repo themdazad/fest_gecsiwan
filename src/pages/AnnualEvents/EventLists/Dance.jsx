@@ -2,9 +2,9 @@ import Template from "../EventPage";
 
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrDFbtubs26gFVj56XEWQzd2I0SCiBZ2eoBg&s  ",
     Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+    Description:"A captivating form of expression where movement and rhythm come together to convey emotion, tell stories, and entertain. Dancers use their bodies to interpret music, creating visually stunning performances that showcase grace, strength, and creativity. Whether it's classical ballet, energetic hip-hop, cultural folk dances, or contemporary styles, dance is a universal language that transcends boundaries, connecting people through its powerful visual and emotional impact. It’s an art form that requires practice, passion, and dedication, making every performance a unique and powerful experience.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",

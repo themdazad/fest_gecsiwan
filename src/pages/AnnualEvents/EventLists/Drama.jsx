@@ -2,13 +2,13 @@ import Template from "../EventPage";
 
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://cdn.ishencai.com/gallery/publish/2024/04/29/7bb8ab1cdf5e47969f1fc3461735dc68.png?x-oss-process=image/resize,w_500,h_500",
+    Tittle: "Drama",
+    Description:"In India, drama is a rich tradition that blends storytelling with music, dance, and vibrant performances. Rooted in ancient art forms like Sanskrit theatre and folk drama, Indian drama often reflects cultural values, mythological stories, social issues, and emotions in a way that resonates deeply with audiences. Whether in classical performances like Natya Shastra or modern plays in regional languages, drama in India is an expression of creativity, passion, and social commentary. It combines elements of tradition and contemporary thought, offering both entertainment and a mirror to society, while engaging audiences with powerful storytelling.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [

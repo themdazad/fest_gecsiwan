@@ -80,7 +80,7 @@ export const Hero_Section = () => {
           Coming Soon
         </span>
                 
-        <Button as={NavLink} to={"/Events"}  className=" justify-items text-amber-400" color="warning" size="lg" variant="faded" con endContent={"s"}>
+        <Button as={NavLink} to={"/EventDetails"}  className=" justify-items text-amber-400" color="warning" size="lg" variant="faded" con endContent={"s"}>
         Participate ↗
       </Button>  
 

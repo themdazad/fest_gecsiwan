@@ -1,13 +1,13 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5RRDF3doi647OnZE_LdFUcItZgC-fLNIf9XNtfAkSAj2mzU-W553q0ubiujcFbi5w3w&usqp=CAU",
+    Tittle: "Football",
+    Description:"Get ready for an action-packed football tournament at our college annual event! Teams will battle it out on the field, showcasing their speed, skill, and teamwork. It’s a game of strategy, agility, and passion, as players work together to score goals and defend their side. The excitement builds as students cheer for their teams, creating an unforgettable atmosphere of school spirit. Whether it’s a thrilling last-minute goal or flawless teamwork, football promises to be one of the most exciting highlights of the event.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [

@@ -2,9 +2,9 @@ import Template from "../EventPage";
 
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFUUF9av2REh08OyOX671EEkBGnSi2pd7izKyUOtHsjRZAMqnO-3JPtpJdP__n7I4y60&usqp=CAU",
     Tittle: "Cricket",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+    Description:"A thrilling team sport played with a bat and ball, where two teams compete to score runs and dismiss opponents. The game is played on a large oval field with a pitch at the center, and the objective is to score more runs than the opposing team. The batting team aims to hit the ball and run between wickets, while the bowling team tries to get the batsmen out through various methods like bowling them out, catching them, or running them out. Cricket is a game of skill, strategy, and teamwork, with formats ranging from fast-paced T20 matches to the longer and more strategic Test matches.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",

@@ -3,11 +3,11 @@ import Template from "../EventPage";
 const data =  { 
   BannerImage: "https://t3.ftcdn.net/jpg/05/62/89/18/360_F_562891800_dcIUi1Ovx2PCPWILcidOJEGzLGce5D43.jpg",
     Tittle: "Kabaddi",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+    Description:"Step onto the mat for an exhilarating game of Kabaddi at our college annual event. This fast-paced, contact sport challenges both physical strength and mental strategy. Played in teams, the goal is to tag opponents while holding your breath, making it a thrilling combination of agility, stamina, and quick thinking. Whether you're diving into a tackle or trying to outsmart your opponents with strategic raids, Kabaddi is all about teamwork and determination. Get ready for an action-packed experience that will have everyone on the edge of their seats.",
     Date: "DD-MM-2024",
     Prize: "000.00",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [

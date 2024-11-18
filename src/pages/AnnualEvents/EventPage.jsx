@@ -18,16 +18,17 @@ const Template = ({ Data, GameRules, CoordinatorsName }) => {
         className="bg-center aspect-video md:aspect-[4/1] bg-cover bg-no-repeat relative header w-full"
         style={{
           backgroundImage: `url(${Data.BannerImage})`,
-          filter: 'grayscale(100%) sepia(100%)', // Desaturate and apply sepia filter
+          filter: 'grayscale(100%) sepia(50%)', // Desaturate and apply sepia filter
         }}
       >
-        <div className="  absolute z-10 overflow-visible p-0">
-          {/* background section for event  */}{"df "}
+        <div className=" w-full h-full absolute z-10 overflow-visible p-0">
+          {/* background section for event  */}{""}
+        
         </div>
 
         <div className="absolute flex max-md:flex-col justify-between items-center  px-[5%] bottom-0 left-0 right-0 z-20 py-6 bg-gradient-to-t from-black to-transparent text-white">
           {/* some tittle will add here */}
-          <h2 className="text-5xl max-md:my-4 md:text-6xl font-semibold max-md:text-center">
+          <h2 className="text-5xl max-md:my-4 md:text-8xl font-semibold max-md:text-center">
             {Data.Tittle}
           </h2>
           <div className="date flex items-center space-x-4">

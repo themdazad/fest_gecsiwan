@@ -15,7 +15,7 @@ export const EventDetails = () => {
         <div className="absolute flex max-md:flex-col justify-between items-center px-[5%] bottom-0 left-0 right-0 z-20 py-6 bg-gradient-to-t from-black to-transparent text-white">
           {/* some tittle will add here */}
           <h2 className="text-5xl text-amber-300 max-md:my-4 md:text-6xl font-semibold max-md:text-center">
-           Participate in Annual Events
+           Participate in Events
           </h2>
           <div className="date flex items-center space-x-4">
             <p >Last Date: 24 November 2024</p>
