@@ -9,7 +9,7 @@ const data = {
   Date: "DD-MM-2024",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
-  GoogleForm: "",
+  GoogleForm: "https://forms.gle/R9iQPeRWB4dZAE2L7",
 };
 
 const GameRules = [
