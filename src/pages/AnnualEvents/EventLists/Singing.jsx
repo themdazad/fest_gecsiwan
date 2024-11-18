@@ -1,13 +1,8 @@
 import Template from "../EventPage";
 
 const data =  { 
-<<<<<<< HEAD:src/pages/AnnualEvents/EventLists/Singing.jsx
   BannerImage: "https://img.freepik.com/free-photo/glowing-microphone-shines-stage-captivating-audience-generated-by-artificial-intelligence_188544-124623.jpg?t=st=1731956554~exp=1731960154~hmac=ebe1249d095b14a089041104db23702ae3cd8d591f1ee05d745d31b7d67e8983&w=2000",
     Tittle: "Singing",
-=======
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtM7y4zpISUEeaWe46nRanVRi01GqD9kmTWw&s",
-    Title: "Singing",
->>>>>>> 293507f24abe3a66a817bfb10d3201cc0a1a5317:src/pages/AnnualEvents/EventLists/Music.jsx
     Description:"The microphone is your wand, and the stage is your canvas. Let your voice soar, touching every corner of the auditorium and every soul in the audience. From classical renditions to modern hits, this is your chance to let your talent shine and make the atmosphere unforgettable.",
     Date: "DD-MM-2024",
     Prize: "Available Soon",
