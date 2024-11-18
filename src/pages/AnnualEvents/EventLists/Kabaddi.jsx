@@ -19,7 +19,8 @@ const data =  {
   const CoordinatorsName =[
     {
       "name": "N/A",
-      "phone": "1234567890"
+      "role":" ",
+"phone": "1234567890"
     },
     {
       "name": "N/A",

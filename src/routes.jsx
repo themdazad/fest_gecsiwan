@@ -5,7 +5,7 @@ import { AboutPage } from "./pages/AboutPage/AboutPage.jsx";
 import Cricket from "./pages/AnnualEvents/EventLists/Cricket.jsx";
 import Football from "./pages/AnnualEvents/EventLists/Football.jsx";
 import Chess from "./pages/AnnualEvents/EventLists/Chess.jsx";
-import Music from "./pages/AnnualEvents/EventLists/Music.jsx";
+import Singing from "./pages/AnnualEvents/EventLists/Singing.jsx";
 import Running from "./pages/AnnualEvents/EventLists/Running.jsx";
 import Dance from "./pages/AnnualEvents/EventLists/Dance.jsx";
 import Drama from "./pages/AnnualEvents/EventLists/Drama.jsx";
@@ -34,7 +34,7 @@ const events = [
   { path: "/Events/Cricket", component: Cricket },
   { path: "/Events/Football", component: Football },
   { path: "/Events/Chess", component: Chess },
-  { path: "/Events/Music", component: Music },
+  { path: "/Events/Singing", component: Singing },
   { path: "/Events/Running", component: Running },
   { path: "/Events/Dance", component: Dance },
   { path: "/Events/Drama", component: Drama },

@@ -2,7 +2,7 @@ import Template from "../EventPage";
 
 const data = {
   BannerImage:
-    "/images/pubg_banner.jpg",
+    "https://img.freepik.com/free-photo/man-racing-dirt-bike-fantasy-environment_23-2151500474.jpg?t=st=1731955714~exp=1731959314~hmac=e0cdf6a0bfb63b55d87e6a7c81003754cf0fb6373d6467960c2247e2c4657e53&w=1800",
   Tittle: "Pubg",
   Description:
     "Gear up for an adrenaline-pumping E-Sports event with PUBG Mobile, where strategy, precision, and quick reflexes determine who will claim the Chicken Dinner. Dive into the battleground, form squads, and navigate dynamic terrains while taking on opponents in real-time combat. The game tests your tactical planning, survival instincts, and teamwork as the safe zone shrinks and the intensity builds.",
