@@ -12,6 +12,7 @@ import Dance from "./pages/Events/Dance.jsx";
 import Drama from "./pages/Events/Drama.jsx";
 import ArtAndCraft from "./pages/Events/ArtAndCraft.jsx";
 import StandupComedy from "./pages/Events/StandupComedy.jsx";
+import Running from "./pages/Events/Running.jsx";
 
 export default function Path() {  
   return (
@@ -31,6 +32,7 @@ export default function Path() {
       <Route path="/Events/Drama" element={<Drama />} />
       <Route path="/Events/ArtAndCraft" element={<ArtAndCraft />} />
       <Route path="/Events/StandupComedy" element={<StandupComedy />} />
+      <Route path="/Events/Running" element={<Running />} />
 
 
       <Route path="/about" element={<AboutPage />} />

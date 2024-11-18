@@ -14,7 +14,7 @@ const Template = ({Data}) => {
   return (
     <section>
       {/* Event banner section  */}
-      <div className={`bg-[url('${Data.Image}')] bg-center bg-cover bg-no-repeat relative header w-full h-[600px]`}>
+      <div className="bg-center bg-cover bg-no-repeat relative header w-full h-[600px]"  style={{ backgroundImage: `url(${Data,Image})` }}>
         <div className="  absolute z-10 overflow-visible p-0">
           {/* background section for event  */}
         </div>

@@ -53,6 +53,11 @@ export default function Events() {
       img: "https://t4.ftcdn.net/jpg/09/68/11/69/240_F_968116952_WhbjxSgwX2puXOWDTBJGCK4RqdyJZTGo.jpg",
       
     },
+    {
+      title: "Running",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBNugVB68_Ig4J0GgkKihUSriGvPuLxXHY6Q&sg",
+      
+    },
   ];
 
   return (
