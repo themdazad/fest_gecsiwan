@@ -8,6 +8,11 @@ export default function Events() {
       route: "Carrom",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGibKHotGCarOdSdWU-OH7CHUIZB6YHqbug&s",
     },
+    {
+      CardTittle: "Graphic Designing",
+      route: "GraphicDesigning",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGibKHotGCarOdSdWU-OH7CHUIZB6YHqbug&s",
+    },
 
     {
       CardTittle: "Cricket",

@@ -15,16 +15,13 @@ const Template = ({ Data, GameRules, CoordinatorsName }) => {
     <section >
       {/* Event banner section  */}
       <div
-        className="bg-center aspect-video md:aspect-[3/1] bg-cover bg-no-repeat relative header w-full"
+        className="aspect-video md:aspect-[2/1] bg-cover bg-no-repeat relative header "
         style={{
           backgroundImage: `url(${Data.BannerImage})`,
-          filter: 'grayscale(100%) sepia(50%)', // Desaturate and apply sepia filter
+          
         }}
       >
-        <div className=" w-full h-full absolute z-10 overflow-visible p-0">
-          {/* background section for event  */}{""}
-        
-        </div>
+        <div className=" w-full h-full absolute z-10 overflow-visible p-0"/>
 
         <div className="absolute flex max-md:flex-col justify-between items-center  px-[5%] bottom-0 left-0 right-0 z-20 py-6 bg-gradient-to-t from-black to-transparent text-white">
           {/* some tittle will add here */}

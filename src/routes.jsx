@@ -25,6 +25,7 @@ import TableTennis from "./pages/AnnualEvents/EventLists/TableTennis.jsx";
 import Skipping from "./pages/AnnualEvents/EventLists/Skipping.jsx";
 import Pubg from "./pages/AnnualEvents/EventLists/Pubg.jsx";
 import FreeFire from "./pages/AnnualEvents/EventLists/FreeFire.jsx";
+import GraphicDesigning from "./pages/AnnualEvents/EventLists/GraphicDesigning.jsx";
 import { EventDetails } from "./pages/EventDetails/EventDetails.jsx";
 
 const events = [
@@ -51,6 +52,7 @@ const events = [
   { path: "/Events/Skipping", component: Skipping },
   { path: "/Events/Pubg", component: Pubg },
   { path: "/Events/FreeFire", component: FreeFire },
+  { path: "/Events/GraphicDesigning", component: GraphicDesigning },
 ];
 
 export default function Path() {  
