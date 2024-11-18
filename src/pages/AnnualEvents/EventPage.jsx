@@ -38,7 +38,7 @@ const Template = ({ Data, GameRules, CoordinatorsName }) => {
       </div>
 
       {/* Event Details  */}
-      <div className="px-[5%] space-y-16 event_details py-16 w-[1440px] m-auto">
+      <div className="px-[5%] space-y-16 event_details py-16 max-w-[1440px] m-auto">
         {/* Event Description  */}
         <div className="EventDescription space-y-2">
           <h1 className="text-amber-400 text-3xl  font-semibold">

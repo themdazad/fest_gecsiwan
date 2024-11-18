@@ -117,7 +117,7 @@ export default function Events() {
   );
 
   return (
-    <div className="max-w-[1980px] m-auto px-[5%] my-12 gap-8 gap-y-16 grid grid-cols-2 sm:grid-cols-6 ">
+    <div className="max-w-[1980px] m-auto px-[5%] my-12 gap-4 md:gap-8 md:gap-y-16 grid grid-cols-2 sm:grid-cols-6 ">
       {sortedList.map((item, index) => (
         <Card
           as={NavLink}
