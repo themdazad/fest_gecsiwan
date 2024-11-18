@@ -1,31 +1,27 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp--VrSPsttJRPafh13oi0C5-c61ahCgnPww&s",
+    Tittle: "Table Tennis",
+    Description:"Take your place at the table and experience the thrill of this fast-paced, high-intensity game. Table Tennis, often called ping-pong, demands quick reflexes, precision shots, and strategic gameplay. Whether it’s singles or doubles, every rally is a battle of skill, agility, and focus.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+   "Game Format: Matches are played in singles or doubles, with each game up to 11 points (win by 2 points).",
+   "Serve Rules: Alternate serves every 2 points. Serve must be behind the table and above the playing surface.",
+   "Serve Rules: Alternate serves every 2 points. Serve must be behind the table and above the playing surface.",
+   "Scoring: A point is scored when the opponent fails to return the ball, hits it out, or doesn’t follow serving rules.",
+   "Fair Play: Respect your opponent and play with integrity.",
+   "Winning: Best-of-three or best-of-five games, as decided by the organizers.",
   ];
 
   const CoordinatorsName =[
     {
-      "name": "John Doe",
-      "phone": "1234567890"
-    },
-    {
-      "name": "Jane Doe",
-      "phone": "0987654321"
-    },
-    {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     }
   ]

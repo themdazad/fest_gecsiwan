@@ -1,33 +1,31 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtM7y4zpISUEeaWe46nRanVRi01GqD9kmTWw&s",
+    Tittle: "Singing",
+    Description:"The microphone is your wand, and the stage is your canvas. Let your voice soar, touching every corner of the auditorium and every soul in the audience. From classical renditions to modern hits, this is your chance to let your talent shine and make the atmosphere unforgettable.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+    "Performances can be solo or group.",
+        "No pre-recorded tracks unless specified.",
+        "Judging based on voice quality, rhythm, and stage presence."
   ];
 
   const CoordinatorsName =[
     {
-      "name": "John Doe",
-      "phone": "1234567890"
+      "name": "Shahnoor Instiyaque",
+      "phone": "7547899882"
     },
     {
-      "name": "Jane Doe",
-      "phone": "0987654321"
+      "name": "Rikku Kumar",
+      "phone": "9973066392"
     },
-    {
-      "name": "Jane Doe",
-      "phone": "0987654321"
-    }
+    
   ]
 
 const Music = () => {

@@ -107,7 +107,8 @@ export const Need_Assistance = () => {
           any step, please contact us
         </p>
 
-        <Button
+        <Button 
+        className="text-white"
           as={NavLink}
           size="lg"
           to="mailto:support.devconfig@gmail.com"

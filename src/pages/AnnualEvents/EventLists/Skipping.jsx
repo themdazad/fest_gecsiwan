@@ -1,31 +1,24 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64I_C32UAZPfx__I6zVYzkSjKIALGBYFdOA&s",
+    Tittle: "Rope Skipping",
+    Description:"Every skip, jump, and spin brings energy and excitement to the stage, blending athleticism with artistry. It’s not just a sport—it’s a performance that tests stamina while captivating the audience.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+    "Participants will jump rope continuously for a set duration.",
+        "Maximum number of jumps counted in the given time wins.",
+        "No other equipment except for the skipping rope allowed."
   ];
 
   const CoordinatorsName =[
-    {
-      "name": "John Doe",
-      "phone": "1234567890"
-    },
-    {
-      "name": "Jane Doe",
-      "phone": "0987654321"
-    },
-    {
-      "name": "Jane Doe",
+        {
+      "name": "N/A",
       "phone": "0987654321"
     }
   ]

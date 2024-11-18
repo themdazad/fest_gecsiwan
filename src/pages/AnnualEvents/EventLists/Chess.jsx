@@ -5,27 +5,28 @@ const data =  {
     Tittle: "Chess",
     Description:"A timeless game of strategy and intellect, where two players engage in a battle of minds. Each move is carefully calculated, as players control an army of pieces—pawns, knights, bishops, rooks, queens, and kings—on a 64-square board. The objective is to checkmate the opponent's king, cornering it with no escape. Every move requires anticipation, planning, and foresight, making it a game of patience, precision, and skill. Whether in a friendly match or a fierce tournament, chess tests the limits of concentration and strategic thinking.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+    "Standard chess rules apply; the player who checkmates the king wins.",
+        "Each player has a set time limit; clock rule applies.",
+        "No illegal moves allowed."
   ];
 
   const CoordinatorsName =[
     {
-      "name": "John Doe",
+      "name": "N/A",
       "phone": "1234567890"
     },
     {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     },
     {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     }
   ]

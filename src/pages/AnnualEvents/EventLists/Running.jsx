@@ -1,38 +1,37 @@
 import Template from "../EventPage";
 
-const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
-    Date: "DD-MM-2024",
-    Prize: "000.00",
-    Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
-  }
+const data = {
+  BannerImage:
+    "https://img.freepik.com/premium-photo/illustration-runners-city_894766-920.jpg",
+  Tittle: "Running",
+  Description:
+    "The track is ready, the stakes are high, and every step counts. Running is not just a test of speed; it’s a celebration of determination, discipline, and perseverance. From short sprints that challenge reflexes to long-distance runs that demand stamina, this event pushes participants to their limits and beyond. As the crowd cheers and the finish line draws near, every heartbeat echoes the rhythm of the race. Whether you’re a seasoned athlete or a spirited participant, running embodies the essence of focus and sheer willpower.",
+  Date: "DD-MM-2024",
+  Prize: "Available Soon",
+  Location: "Campus of GEC, Siwan",
+  GoogleForm: "",
+};
 
-  const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
-  ];
+const GameRules = [
+  "Various distance categories; participants must follow the track layout.",
+  "No external assistance; athletes must complete the race in the given time.",
+  "Timing and distance are key to the final result.",
+];
 
-  const CoordinatorsName =[
-    {
-      "name": "John Doe",
-      "phone": "1234567890"
-    },
-    {
-      "name": "Jane Doe",
-      "phone": "0987654321"
-    },
-    {
-      "name": "Jane Doe",
-      "phone": "0987654321"
-    }
-  ]
+const CoordinatorsName = [
+  {
+    name: "Not Available",
+    phone: "1234567890",
+  },
+];
 
 const Running = () => {
   return (
-  <Template Data = {data} GameRules={GameRules} CoordinatorsName={CoordinatorsName}/>
-  )
-}
+    <Template
+      Data={data}
+      GameRules={GameRules}
+      CoordinatorsName={CoordinatorsName}
+    />
+  );
+};
 export default Running;

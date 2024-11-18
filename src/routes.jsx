@@ -6,6 +6,7 @@ import Cricket from "./pages/AnnualEvents/EventLists/Cricket.jsx";
 import Football from "./pages/AnnualEvents/EventLists/Football.jsx";
 import Chess from "./pages/AnnualEvents/EventLists/Chess.jsx";
 import Music from "./pages/AnnualEvents/EventLists/Music.jsx";
+import Running from "./pages/AnnualEvents/EventLists/Running.jsx";
 import Dance from "./pages/AnnualEvents/EventLists/Dance.jsx";
 import Drama from "./pages/AnnualEvents/EventLists/Drama.jsx";
 import ArtAndCraft from "./pages/AnnualEvents/EventLists/ArtAndCraft.jsx";
@@ -22,6 +23,8 @@ import KhoKho from "./pages/AnnualEvents/EventLists/KhoKho.jsx";
 import TugOfWar from "./pages/AnnualEvents/EventLists/TugOfWar.jsx";
 import TableTennis from "./pages/AnnualEvents/EventLists/TableTennis.jsx";
 import Skipping from "./pages/AnnualEvents/EventLists/Skipping.jsx";
+import Pubg from "./pages/AnnualEvents/EventLists/Pubg.jsx";
+import FreeFire from "./pages/AnnualEvents/EventLists/FreeFire.jsx";
 import { EventDetails } from "./pages/EventDetails/EventDetails.jsx";
 
 const events = [
@@ -31,6 +34,7 @@ const events = [
   { path: "/Events/Football", component: Football },
   { path: "/Events/Chess", component: Chess },
   { path: "/Events/Music", component: Music },
+  { path: "/Events/Running", component: Running },
   { path: "/Events/Dance", component: Dance },
   { path: "/Events/Drama", component: Drama },
   { path: "/Events/ArtAndCraft", component: ArtAndCraft },
@@ -45,6 +49,8 @@ const events = [
   { path: "/Events/TugOfWar", component: TugOfWar },
   { path: "/Events/TableTennis", component: TableTennis },
   { path: "/Events/Skipping", component: Skipping },
+  { path: "/Events/Pubg", component: Pubg },
+  { path: "/Events/FreeFire", component: FreeFire },
 ];
 
 export default function Path() {  

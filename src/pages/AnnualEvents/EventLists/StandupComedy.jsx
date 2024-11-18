@@ -1,31 +1,33 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5s_nLd_RF2JYpuIhYAwBjF_d6GA761xkpokciBn-F0z6GkWrMKZbNIs8AtbAlnqjVPgI&usqp=CAU",
+    Tittle: "Standup Comedy",
+    Description:"With every punchline and perfectly timed pause, comedians connect with the audience, leaving them in splits. Whether it’s relatable humor, witty one-liners, or bold satire, this event is all about spreading joy and showcasing the art of humor.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+    "Language: Performances should be in clean and appropriate language suitable for all audiences.", 
+    "Props: Minimal props allowed; the focus should remain on the performer and their delivery.", 
+    "Respect: Content must avoid offensive or disrespectful remarks about individuals, groups, or sensitive topics.", 
+    "Judging Criteria: Participants will be judged on originality, delivery, timing, and audience engagement.", 
   ];
 
   const CoordinatorsName =[
     {
-      "name": "John Doe",
+      "name": "N/A",
       "phone": "1234567890"
     },
     {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     },
     {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     }
   ]

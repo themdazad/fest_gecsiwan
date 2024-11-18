@@ -7,27 +7,28 @@ const data = {
   Description:
     "Step into a vibrant showcase of creativity at the Art and Craft Exhibition! Immerse yourself in a world of colors, textures, and imagination, where stunning paintings and intricate handicrafts bring the artistic brilliance of our students to life.",
   Date: "DD-MM-2024",
-  Prize: "000.00",
+  Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
   GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
 };
 
 const GameRules = [
-  "Rule 1: Add your rules here",
-  "Rule 2: Add some more rules here",
+  "Original work only; no plagiarized content.",
+  "No size restrictions; materials must be provided by participants.",
+  "Judging based on creativity, technique, and presentation."
 ];
 
 const CoordinatorsName = [
   {
-    name: "John Doe",
+    name: "N/A",
     phone: "1234567890",
   },
   {
-    name: "Jane Doe",
+    name: "N/A",
     phone: "0987654321",
   },
   {
-    name: "Jane Doe",
+    name: "N/A",
     phone: "0987654321",
   },
 ];

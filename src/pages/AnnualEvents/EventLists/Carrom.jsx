@@ -5,27 +5,28 @@ const data =  {
     Tittle: "Carrom",
     Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+    "Each player/team gets 8 coins (1 queen); aim to pocket coins using the striker.",
+        "Players take turns to strike; no direct hitting of the opponent's coins.",
+        "First to pocket all their coins, followed by the queen, wins."
   ];
 
   const CoordinatorsName =[
     {
-      "name": "John Doe",
+      "name": "N/A",
       "phone": "1234567890"
     },
     {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     },
     {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     }
   ]

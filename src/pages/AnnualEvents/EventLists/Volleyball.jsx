@@ -1,31 +1,29 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
-    Tittle: "Carrom",
-    Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
+  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvLxqkDA3CBPmAtr9KUkLbw4GqWwQbFt7nNH-wYg9Lkl2Mn458UPvDChZbQ17b_Loz2Xo&usqp=CAU",
+    Tittle: "Volleyball",
+    Description:"Hit the court for an electrifying game of Volleyball, a sport that blends teamwork, agility, and precision. With six players on each side, the objective is simple—score points by sending the ball over the net and landing it in the opposing team’s court. Whether it’s a powerful spike, a strategic set, or a diving save, every play showcases the thrill of the game.",
     Date: "DD-MM-2024",
-    Prize: "000.00",
+    Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
-    GoogleForm: "https://forms.gle/q7XjJaWeG8GuzGNNA",
+    GoogleForm: "",
   }
 
   const GameRules = [
-    "Rule 1: Add your rules here", 
-    "Rule 2: Add some more rules here",
+        "Team Size: Six players per team on the court, with substitutions allowed.",
+        "Scoring: Matches are played in sets (best of 3 or 5). A set is won by the first team to reach 25 points (win by 2).",
+        "Service: Serve must be behind the baseline; it can be underhand or overhand.",
+        "Hits per Side: A team can touch the ball up to three times before sending it over the net.",
+        "Faults: Points are lost for net violations, lifting the ball, or letting the ball touch the ground.",
+        "Winning: The team that wins the majority of sets takes the match.",
+        "Rul",
   ];
 
   const CoordinatorsName =[
+   
     {
-      "name": "John Doe",
-      "phone": "1234567890"
-    },
-    {
-      "name": "Jane Doe",
-      "phone": "0987654321"
-    },
-    {
-      "name": "Jane Doe",
+      "name": "N/A",
       "phone": "0987654321"
     }
   ]

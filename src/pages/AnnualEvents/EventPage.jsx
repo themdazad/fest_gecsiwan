@@ -15,7 +15,7 @@ const Template = ({ Data, GameRules, CoordinatorsName }) => {
     <section >
       {/* Event banner section  */}
       <div
-        className="bg-center aspect-video md:aspect-[4/1] bg-cover bg-no-repeat relative header w-full"
+        className="bg-center aspect-video md:aspect-[3/1] bg-cover bg-no-repeat relative header w-full"
         style={{
           backgroundImage: `url(${Data.BannerImage})`,
           filter: 'grayscale(100%) sepia(50%)', // Desaturate and apply sepia filter
@@ -47,16 +47,16 @@ const Template = ({ Data, GameRules, CoordinatorsName }) => {
           <p className="text-xl">{Data.Description}</p>
         </div>
 
-        <section className="grid grid-cols-1 md:grid-cols-2 max-sm:space-y-8">
+        <section className="grid grid-cols-1 md:gap-4 md:grid-cols-2 max-sm:space-y-8">
           {/* Event Rules  */}
           <div className="EventRule space-y-2">
             <h1 className="text-amber-400 text-3xl font-semibold flex">
               <BsFileRuledFill />
               Rules
             </h1>
-            <ul>
+            <ul className="space-y-3">
               {GameRules.map((rule, index) => (
-                <li key={index}>{rule}</li>
+                <li key={index}>{index+1}. {rule}</li>
               ))}
             </ul>
           </div>
