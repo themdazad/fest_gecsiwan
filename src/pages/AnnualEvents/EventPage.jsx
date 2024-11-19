@@ -4,7 +4,7 @@ import { BsFileRuledFill } from "react-icons/bs";
 import { GiTargetPrize } from "react-icons/gi";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
-import { Button, Divider } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { SiGoogleforms } from "react-icons/si";
 import Coordinators from "./EventCoordinators";
 import { NavLink } from "react-router-dom";
@@ -22,14 +22,12 @@ const Template = ({ Data, GameRules, CoordinatorsName }) => {
     <section >
       {/* Event banner section  */}
       <div
-        className="aspect-video md:aspect-[2/1] bg-cover bg-no-repeat relative header "
+        className="aspect-video md:aspect-[3/1] bg-cover bg-no-repeat relative header "
         style={{
           backgroundImage: `url(${Data.BannerImage})`,
-          
         }}
       >
         <div className=" w-full h-full absolute z-10 overflow-visible p-0"/>
-
         <div className="absolute flex max-md:flex-col justify-between items-center  px-[5%] bottom-0 left-0 right-0 z-20 py-6 bg-gradient-to-t from-black to-transparent text-white">
           {/* some tittle will add here */}
           <h2 className="text-5xl max-md:my-4 md:text-8xl text-center font-semibold max-md:text-center">
