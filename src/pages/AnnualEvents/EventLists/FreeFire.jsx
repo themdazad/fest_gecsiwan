@@ -9,7 +9,7 @@ const data = {
   Date: "DD-MM-2024",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
-  GoogleForm: "",
+  GoogleForm: "https://forms.gle/8z8GQQ5rF9FQNTLJ9",
 };
 
 const GameRules = [
@@ -24,8 +24,14 @@ const GameRules = [
 
 const CoordinatorsName = [
   {
-    name: "N/A",
-    phone: "0987654321",
+    name: "Abhinav Kumar",
+    role:"President",
+    phone: "70614 55548",
+  },
+  {
+    name: "Deepak Kumar",
+    role:"Vice-President",
+    phone: "9708581134",
   },
 ];
 const FreeFire = () => {

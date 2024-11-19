@@ -28,13 +28,14 @@ const CoordinatorsName = [
   {
     name: "Abhinav Kumar",
     role:"President",
-    phone: "0987654321",
+    phone: "70614 55548",
   },
   {
-    name: "Azad",
+    name: "Deepak Kumar",
     role:"Vice-President",
-    phone: "0987654321",
+    phone: "9708581134",
   },
+  
 ];
 const Pubg = () => {
   return (
