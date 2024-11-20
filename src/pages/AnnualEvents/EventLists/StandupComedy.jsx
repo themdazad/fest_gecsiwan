@@ -19,17 +19,14 @@ const data =  {
 
   const CoordinatorsName =[
     {
-      "name": "N/A",
-      "phone": "1234567890"
+      "name": "Krishna Kumar",
+      "phone": "9334779039"
     },
     {
-      "name": "N/A",
-      "phone": "0987654321"
+      "name": "Dheeraj Kumar",
+      "phone": "7362859326"
     },
-    {
-      "name": "N/A",
-      "phone": "0987654321"
-    }
+   
   ]
 
 const StandupComedy = () => {

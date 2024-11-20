@@ -20,16 +20,12 @@ const GameRules = [
 
 const CoordinatorsName = [
   {
-    name: "N/A",
-    phone: "1234567890",
+    name: "Rishu Kumar",
+    phone: "9142363128",
   },
   {
-    name: "N/A",
-    phone: "0987654321",
-  },
-  {
-    name: "N/A",
-    phone: "0987654321",
+    name: "Swati Singh",
+    phone: "9135212317",
   },
 ];
 const ArtAndCraft = () => {

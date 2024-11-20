@@ -19,9 +19,14 @@ const data =  {
 
   const CoordinatorsName =[
         {
-      "name": "N/A",
-      "phone": "0987654321"
-    }
+      "name": "MD. Fatim",
+      "phone": "8292697211"
+    },
+
+    {
+      "name": "Riya Kushwaha",
+      "phone": "7070450468"
+    },
   ]
 
 const Literature = () => {
