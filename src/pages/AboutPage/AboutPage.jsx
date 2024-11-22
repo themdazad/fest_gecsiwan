@@ -67,46 +67,7 @@ function Developer() {
           size: "lg",
         }}
       />
-      <User
-        className=" min-w-fit"
-        name="Vikash Kumar"
-        description={
-          <div className="text-left">
-            <p>Full Stack Developer</p>
-            <Link
-              className="m-1 "
-              target="_blank"
-              href="https://instagram.com/vikashkrdeveloper"
-              size="md"
-              isExternal
-            >
-              <BsInstagram />
-            </Link>
-            <Link
-              className="m-1 "
-              target="_blank"
-              href="https://www.linkedin.com/in/vikashkrdeveloper/"
-              size="md"
-              isExternal
-            >
-              <BsLinkedin />
-            </Link>
-            <Link
-              className="m-1 "
-              target="_blank"
-              href="https://github.com/vikashkrdeveloper"
-              size="md"
-              isExternal
-            >
-              <BsGithub />
-            </Link>
-          </div>
-        }
-        avatarProps={{
-          src: "https://media.licdn.com/dms/image/v2/D4D03AQGHLuBU5xD5Dg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698335967456?e=2147483647&v=beta&t=T4Mo-ijjTKyXXg4JogmPBwxJetbuYqglr10fejLX9EA",
-          size: "lg",
-        }}
-      />
+     
     </>
   );
 }

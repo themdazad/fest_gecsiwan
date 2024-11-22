@@ -76,15 +76,12 @@ export const Hero_Section = () => {
           {/* add google form link in button  */}
         </div>
 
-        <span className="text-lg sm:text-6xl my-6 font-semibold text-white text-center tracking-widest px-2">
+        <span className="text-lg sm:text-3xl my-6 font-semibold text-white text-center tracking-widest px-2">
+       
           {/* <p className="my-4">Annual Fest</p> */}
         <Image src="images/kriditam_date.svg" height={500} width={500}/>
         </span>
-                
-        <Button as={NavLink} to={"/EventDetails"}  className=" justify-items text-amber-400" color="warning" size="lg" variant="faded" con endContent={"s"}>
-        Participate ↗
-      </Button>  
-
+        
       </header>
     </>
   );
