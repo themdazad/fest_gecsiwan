@@ -18,7 +18,7 @@ export const EventDetails = () => {
            Participate in Events
           </h2>
           <div className="date flex items-center space-x-4">
-            <p >Last Date: Soon</p>
+            <p >Last Date: Over</p>
           </div>
         </div>
       </div>
