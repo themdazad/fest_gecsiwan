@@ -77,7 +77,7 @@ export const Hero_Section = () => {
         </div>
 
         <span className="text-lg sm:text-6xl my-6 font-semibold text-white text-center tracking-widest px-2">
-          <p className="my-4">Annual Fest</p>
+          {/* <p className="my-4">Annual Fest</p> */}
         <Image src="images/kriditam_date.svg" height={500} width={500}/>
         </span>
                 

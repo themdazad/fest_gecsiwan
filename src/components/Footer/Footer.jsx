@@ -11,12 +11,12 @@ export function Footer() {
           <br />
           Developed with <span className="text-red-600">❤</span> By{" "}
           <a className="font-semibold text-amber-400" target="_blank" href="#">
-            GEC, Siwan
+            Md. Azad
           </a>
         </p>
         <div className="icons flex items-center space-x-4 text-2xl">
             
-          <a href="http://" target="_blank">
+          <a href="https://www.instagram.com/the_mdazad/" target="_blank">
             <FaInstagram />
           </a>
           <a href="" target="_blank">
