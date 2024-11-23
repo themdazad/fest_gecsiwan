@@ -10,6 +10,13 @@ const images = [
   { src: "/images/gallery/udghosh6.JPG", alt: "Event 6" },
   { src: "/images/gallery/udghosh7.JPG", alt: "Event 7" },
   { src: "/images/gallery/udghosh8.JPG", alt: "Event 8" },
+  { src: "/images/gallery/udghosh9.JPG", alt: "Event 9" },
+  { src: "/images/gallery/udghosh10.JPG", alt: "Event 10" },
+  { src: "/images/gallery/udghosh11.JPG", alt: "Event 11" },
+  { src: "/images/gallery/udghosh13.JPG", alt: "Event 13" },
+  { src: "/images/gallery/udghosh14.JPG", alt: "Event 14" },
+  { src: "/images/gallery/udghosh15.JPG", alt: "Event 15" },
+  { src: "/images/gallery/udghosh17.JPG", alt: "Event 17" },
   
 ];
 
