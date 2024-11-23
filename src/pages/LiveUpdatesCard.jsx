@@ -142,7 +142,7 @@ const EngineeringHubPage = () => {
       {/* Feedback Section */}
       <section className="py-10 text-center">
         <h2 className="text-4xl font-bold mb-6">Rate Our Website</h2>
-        <form action="https://forms.gle/oVjut9v1A4VrMRa16" method="POST" target="_blank">
+        <form action="https://forms.gle/oVjut9v1A4VrMRa16" method="GET" target="_blank">
           <input
             type="number"
             name="rating"
@@ -150,7 +150,7 @@ const EngineeringHubPage = () => {
             max="5"
             placeholder="Rate (1 to 5)"
             className="px-4 py-2 rounded-md text-black"
-            required
+            
           />
           <button
             type="submit"
