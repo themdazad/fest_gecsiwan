@@ -1,11 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 // Pages 
+import Gallery from "./pages/Gallery";
+import Compass from "./pages/Compass";
 import { Layout } from "./layout";
 import { AboutPage } from "./pages/AboutPage/AboutPage.jsx";
+import EventSchedule from "./pages/EventSchedule";
+import LiveUpdatesCard from "./pages/LiveUpdatesCard";
 import Cricket from "./pages/AnnualEvents/EventLists/Cricket.jsx";
 import Football from "./pages/AnnualEvents/EventLists/Football.jsx";
 import Chess from "./pages/AnnualEvents/EventLists/Chess.jsx";
-import Music from "./pages/AnnualEvents/EventLists/Music.jsx";
+import Singing from "./pages/AnnualEvents/EventLists/Singing.jsx";
 import Running from "./pages/AnnualEvents/EventLists/Running.jsx";
 import Dance from "./pages/AnnualEvents/EventLists/Dance.jsx";
 import Drama from "./pages/AnnualEvents/EventLists/Drama.jsx";
@@ -25,7 +29,6 @@ import TableTennis from "./pages/AnnualEvents/EventLists/TableTennis.jsx";
 import Skipping from "./pages/AnnualEvents/EventLists/Skipping.jsx";
 import Pubg from "./pages/AnnualEvents/EventLists/Pubg.jsx";
 import FreeFire from "./pages/AnnualEvents/EventLists/FreeFire.jsx";
-import GraphicDesigning from "./pages/AnnualEvents/EventLists/GraphicDesigning.jsx";
 import { EventDetails } from "./pages/EventDetails/EventDetails.jsx";
 
 const events = [
@@ -34,7 +37,7 @@ const events = [
   { path: "/Events/Cricket", component: Cricket },
   { path: "/Events/Football", component: Football },
   { path: "/Events/Chess", component: Chess },
-  { path: "/Events/Music", component: Music },
+  { path: "/Events/Singing", component: Singing },
   { path: "/Events/Running", component: Running },
   { path: "/Events/Dance", component: Dance },
   { path: "/Events/Drama", component: Drama },
@@ -52,24 +55,28 @@ const events = [
   { path: "/Events/Skipping", component: Skipping },
   { path: "/Events/Pubg", component: Pubg },
   { path: "/Events/FreeFire", component: FreeFire },
-  { path: "/Events/GraphicDesigning", component: GraphicDesigning },
 ];
 
 export default function Path() {  
   return (
     <Routes>
-      {/* default home page  */}
-      <Route path="/" element={<Layout />} />
-      <Route path="/EventDetails" element={<EventDetails/>} />
+    <Route path="/" element={<Layout />} />
+    <Route path="/compass" element={<Compass />} />
+    <Route path="/EventDetails" element={<EventDetails />} />
+    <Route path="/about" element={<AboutPage />} />
+    <Route path="/event-schedule" element={<EventSchedule />} />
+    <Route path="/liveupdates-card" element={<LiveUpdatesCard />} />
+  
+    {/* Gallery Route */}
+    <Route path="/gallery" element={<Gallery />} />
+  
+    {/* Event Routes */}
+    {events.map((event, index) => (
+      <Route key={index} path={event.path} element={<event.component />} />
+    ))}
+  </Routes>
+  
 
-      {/* Navigate using navbar  */}
-      {/* All event routes  */}
-      {events.map((event, index) => (
-          <Route key={index} path={event.path} element={<event.component />} />
-        ))}
-
-      <Route path="/about" element={<AboutPage />} />
-
-    </Routes>
+    
   );
 }

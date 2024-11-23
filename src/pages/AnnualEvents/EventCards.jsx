@@ -11,7 +11,7 @@ export default function Events() {
     {
       CardTittle: "Graphic Designing",
       route: "GraphicDesigning",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGibKHotGCarOdSdWU-OH7CHUIZB6YHqbug&s",
+      img: "https://img.freepik.com/free-photo/group-diverse-designers-having-discussion_53876-14556.jpg?t=st=1731952773~exp=1731956373~hmac=f31ff76a193c689b4af816d281e56c3e940e60748209e3e079f6c641086813fa&w=1380",
     },
 
     {
@@ -31,8 +31,8 @@ export default function Events() {
     },
     {
       CardTittle: "Singing",
-      route: "Music",
-      img: "https://media.istockphoto.com/id/857600254/vector/karaoke.jpg?s=612x612&w=0&k=20&c=OQRFZSDEkW9QFI84dQq2mzJXhxGHL-DYEEZrQCTV5WU=",
+      route: "Singing",
+      img: "https://img.freepik.com/free-photo/cartoon-style-character-singing-with-microphone_23-2151056798.jpg?t=st=1731953926~exp=1731957526~hmac=00b44c3540fe44966da1cd0025e4b9198eb61c5888260f5bfef0e44d13549ae5&w=1380",
     },
     {
       CardTittle: "Dance",
@@ -42,7 +42,7 @@ export default function Events() {
     {
       CardTittle: "Drama",
       route: "Drama",
-      img: "https://t4.ftcdn.net/jpg/02/36/47/59/240_F_236475915_FgKg2nLaElJGQnfkDSgregb21JltWfcc.jpg",
+      img: "https://img.freepik.com/free-photo/kids-performing-play-stage-word-theatre-day_23-2151163782.jpg?t=st=1731954160~exp=1731957760~hmac=59c19ae17f3b24a308535785c07c16d9af0546bf0b1c113eccd4dd699fa16806&w=1380",
     },
     {
       CardTittle: "Art And Craft",
@@ -105,14 +105,14 @@ export default function Events() {
       img: "https://img.freepik.com/premium-photo/table-tennis_919955-36175.jpg",
     },
     {
-      CardTittle: "Skipping",
+      CardTittle: "Rope Skipping",
       route: "Skipping",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtBO8pX9naE2alnm4k4e42p-lWVnoxggx5jWJktBvGcdav3ZYvPSiROBHwGjWvWkKD-Dc&usqp=CAU",
+      img: "https://img.freepik.com/free-photo/portrait-girl-boy-showcasing-beautiful-friendship_23-2151537498.jpg?t=st=1731954583~exp=1731958183~hmac=2caa1161541628b5d0ae503f5a2cfdb0af7656e9be78322dc27da3bd0525dea1&w=1380",
     },
     {
       CardTittle: "Running",
       route: "Running",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBNugVB68_Ig4J0GgkKihUSriGvPuLxXHY6Q&sg",
+      img: "https://img.freepik.com/free-photo/scene-from-olympic-games-tournament-with-athletes-competing_23-2151470964.jpg?t=st=1731954239~exp=1731957839~hmac=dcf8b2c1e515fb142f57da27a3908ea8e91be78814bf78727808859649a3505a&w=1380",
     },
     {
       CardTittle: "Pubg",
@@ -132,7 +132,7 @@ export default function Events() {
   );
 
   return (
-    <div className="max-w-[1980px] m-auto px-[5%] my-12 gap-4 md:gap-8 md:gap-y-16 grid grid-cols-2 sm:grid-cols-6 ">
+    <div className="max-w-[1980px] m-auto px-[5%] my-12 gap-4 md:gap-8 md:gap-y-16 grid grid-cols-2 sm:grid-cols-5 ">
       {sortedList.map((item, index) => (
         <Card
           as={NavLink}

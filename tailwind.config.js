@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/images/chahal_bg.webp')",
+        'hero-pattern': "url('/images/kriditum_bg.jpg')",
         'eventsbg': "url('/images/event_bg.png')",
       },
     },

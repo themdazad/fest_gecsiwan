@@ -4,7 +4,7 @@ const data =  {
   BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCURDs8aoM0yFCELP_QlTItMi4Q-gXEF20Tg&s",
     Tittle: "Carrom",
     Description:"Dive into the world of precision, strategy, and skill with our Carrom Tournament at GEC, Siwan.Join us to showcase your carrom skills, compete with the best, and make your mark.",
-    Date: "DD-MM-2024",
+    Date: "21-11-2024  1:30 PM",
     Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/c2K7HXX5k8rvJxEr6",
@@ -19,7 +19,8 @@ const data =  {
   const CoordinatorsName =[
     {
       "name": "N/A",
-      "phone": "1234567890"
+      "role":" ",
+"phone": "1234567890"
     },
     {
       "name": "N/A",

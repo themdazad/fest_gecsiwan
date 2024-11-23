@@ -1,10 +1,10 @@
 import Template from "../EventPage";
 
 const data =  { 
-  BannerImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp--VrSPsttJRPafh13oi0C5-c61ahCgnPww&s",
+  BannerImage: "https://img.freepik.com/free-photo/table-tennis-ping-pong_1232-2658.jpg?t=st=1731957627~exp=1731961227~hmac=80d36cb52307e0a028f7f7d618dd542e0703420caee56a67c22f693a590b5267&w=2000",
     Tittle: "Table Tennis",
     Description:"Take your place at the table and experience the thrill of this fast-paced, high-intensity game. Table Tennis, often called ping-pong, demands quick reflexes, precision shots, and strategic gameplay. Whether it’s singles or doubles, every rally is a battle of skill, agility, and focus.",
-    Date: "DD-MM-2024",
+    Date: "25-11-2024  2:00 PM",
     Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/nhZe2aMuurtwKRKz8",

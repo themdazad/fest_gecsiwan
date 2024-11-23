@@ -2,14 +2,14 @@ import Template from "../EventPage";
 
 const data = {
   BannerImage:
-    "/images/pubg_banner.jpg",
-  Tittle: "Pubg",
+    "https://img.freepik.com/free-photo/man-racing-dirt-bike-fantasy-environment_23-2151500474.jpg?t=st=1731955714~exp=1731959314~hmac=e0cdf6a0bfb63b55d87e6a7c81003754cf0fb6373d6467960c2247e2c4657e53&w=1800",
+  Tittle: "BGMI",
   Description:
-    "Gear up for an adrenaline-pumping E-Sports event with PUBG Mobile, where strategy, precision, and quick reflexes determine who will claim the Chicken Dinner. Dive into the battleground, form squads, and navigate dynamic terrains while taking on opponents in real-time combat. The game tests your tactical planning, survival instincts, and teamwork as the safe zone shrinks and the intensity builds.",
-  Date: "DD-MM-2024",
+    "Gear up for an adrenaline-pumping E-Sports event with BGMI Mobile, where strategy, precision, and quick reflexes determine who will claim the Chicken Dinner. Dive into the battleground, form squads, and navigate dynamic terrains while taking on opponents in real-time combat. The game tests your tactical planning, survival instincts, and teamwork as the safe zone shrinks and the intensity builds.",
+  Date: "21-11-2024  3:00 PM",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
-  GoogleForm: "",
+  GoogleForm: "https://forms.gle/8z8GQQ5rF9FQNTLJ9",
 };
 
 const GameRules = [
@@ -26,9 +26,16 @@ const GameRules = [
 
 const CoordinatorsName = [
   {
-    name: "N/A",
-    phone: "0987654321",
+    name: "Abhinav Kumar",
+    role:"President",
+    phone: "70614 55548",
   },
+  {
+    name: "Deepak Kumar",
+    role:"Vice-President",
+    phone: "9708581134",
+  },
+  
 ];
 const Pubg = () => {
   return (

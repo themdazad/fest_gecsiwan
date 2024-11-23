@@ -6,7 +6,7 @@ const data = {
   Tittle: "Art and Craft",
   Description:
     "Step into a vibrant showcase of creativity at the Art and Craft Exhibition! Immerse yourself in a world of colors, textures, and imagination, where stunning paintings and intricate handicrafts bring the artistic brilliance of our students to life.",
-  Date: "DD-MM-2024",
+  Date: "21-11-2024  3:00 PM",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
   GoogleForm: "https://forms.gle/NtY3Xr4rLqV1cKdE9",

@@ -1,0 +1,78 @@
+/* Gallery container styling */
+.gallery-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Gallery title styling */
+  .gallery-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-transform: uppercase; /* Optional: gives a more refined look */
+  }
+  
+  /* Description text styling */
+  .gallery-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.6; /* Optional: improves readability */
+  }
+  
+  /* Grid setup for the gallery */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusted min size to ensure better image size */
+    gap: 16px; /* Space between images */
+    justify-items: center; /* Ensures images are centered in the grid */
+    padding: 0 10px; /* Adds padding to the left and right sides of the grid */
+  }
+  
+  /* Each gallery item (image wrapper) */
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    position: relative;
+    cursor: pointer; /* Change cursor to indicate it's interactive */
+  }
+  
+  /* Image styling */
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    border-radius: 10px; /* Match rounded corners of the wrapper */
+    transition: transform 0.3s; /* Smooth zoom effect */
+  }
+  
+  /* Hover effect for gallery items */
+  .gallery-item:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  /* Hover effect for images to make them zoom in */
+  .gallery-item img:hover {
+    transform: scale(1.1); /* Slight zoom effect on image hover */
+  }
+  
+  /* Mobile responsive styling */
+  @media (max-width: 768px) {
+    .gallery-container h1 {
+      font-size: 2rem; /* Smaller title for mobile */
+    }
+  
+    .gallery-container p {
+      font-size: 1rem; /* Adjusted text size for mobile */
+    }
+  
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Smaller columns for mobile */
+    }
+  }
+  
