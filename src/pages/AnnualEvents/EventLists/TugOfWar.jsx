@@ -4,7 +4,7 @@ const data =  {
   BannerImage: "https://img.freepik.com/premium-photo/businessmen-fight-concept-tug-war-ai-generated_957244-23857.jpg",
     Tittle: "Thug's of War",
     Description:"Step into the ultimate test of teamwork and raw power with Tug of War. Two teams, one rope, and a single goal: pulling the opposing team across the centerline. It’s a battle of strength, coordination, and strategy, where every ounce of effort counts.",
-    Date: "DD-MM-2024",
+    Date: "25-11-2024  4:00 PM",
     Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/1VsTmcxZHL1Lzk5N6",

@@ -6,7 +6,7 @@ const data = {
   Tittle: "BGMI",
   Description:
     "Gear up for an adrenaline-pumping E-Sports event with BGMI Mobile, where strategy, precision, and quick reflexes determine who will claim the Chicken Dinner. Dive into the battleground, form squads, and navigate dynamic terrains while taking on opponents in real-time combat. The game tests your tactical planning, survival instincts, and teamwork as the safe zone shrinks and the intensity builds.",
-  Date: "DD-MM-2024",
+  Date: "21-11-2024  3:00 PM",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
   GoogleForm: "https://forms.gle/8z8GQQ5rF9FQNTLJ9",

@@ -4,7 +4,7 @@ const data =  {
   BannerImage: "https://img.freepik.com/free-photo/team-adult-men-playing-competitive-volleyball-indoors-generated-by-ai_188544-14006.jpg?t=st=1731957743~exp=1731961343~hmac=e62461e94e89e5f6d6d768b173989ceff957cd31d3eb59301e3918753f33ddc2&w=2000",
     Tittle: "Volleyball",
     Description:"Hit the court for an electrifying game of Volleyball, a sport that blends teamwork, agility, and precision. With six players on each side, the objective is simple—score points by sending the ball over the net and landing it in the opposing team’s court. Whether it’s a powerful spike, a strategic set, or a diving save, every play showcases the thrill of the game.",
-    Date: "DD-MM-2024",
+    Date: "26-11-2024  4:00 PM",
     Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/jQV4brofLCuABCEQ9",

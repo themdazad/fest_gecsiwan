@@ -4,7 +4,7 @@ const data =  {
   BannerImage: "https://png.pngtree.com/background/20230525/original/pngtree-chess-board-is-broken-up-with-a-piece-on-top-picture-image_2730712.jpg",
     Tittle: "Chess",
     Description:"A timeless game of strategy and intellect, where two players engage in a battle of minds. Each move is carefully calculated, as players control an army of pieces—pawns, knights, bishops, rooks, queens, and kings—on a 64-square board. The objective is to checkmate the opponent's king, cornering it with no escape. Every move requires anticipation, planning, and foresight, making it a game of patience, precision, and skill. Whether in a friendly match or a fierce tournament, chess tests the limits of concentration and strategic thinking.",
-    Date: "DD-MM-2024",
+    Date: "25-11-2024  2:00 PM",
     Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/4zifu3j3njf8tdcWA",

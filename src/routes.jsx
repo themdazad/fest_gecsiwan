@@ -1,7 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 // Pages 
+import Gallery from "./pages/Gallery";
+import Compass from "./pages/Compass";
 import { Layout } from "./layout";
 import { AboutPage } from "./pages/AboutPage/AboutPage.jsx";
+import EventSchedule from "./pages/EventSchedule";
+import LiveUpdatesCard from "./pages/LiveUpdatesCard";
 import Cricket from "./pages/AnnualEvents/EventLists/Cricket.jsx";
 import Football from "./pages/AnnualEvents/EventLists/Football.jsx";
 import Chess from "./pages/AnnualEvents/EventLists/Chess.jsx";
@@ -56,18 +60,23 @@ const events = [
 export default function Path() {  
   return (
     <Routes>
-      {/* default home page  */}
-      <Route path="/" element={<Layout />} />
-      <Route path="/EventDetails" element={<EventDetails/>} />
+    <Route path="/" element={<Layout />} />
+    <Route path="/compass" element={<Compass />} />
+    <Route path="/EventDetails" element={<EventDetails />} />
+    <Route path="/about" element={<AboutPage />} />
+    <Route path="/event-schedule" element={<EventSchedule />} />
+    <Route path="/liveupdates-card" element={<LiveUpdatesCard />} />
+  
+    {/* Gallery Route */}
+    <Route path="/gallery" element={<Gallery />} />
+  
+    {/* Event Routes */}
+    {events.map((event, index) => (
+      <Route key={index} path={event.path} element={<event.component />} />
+    ))}
+  </Routes>
+  
 
-      {/* Navigate using navbar  */}
-      {/* All event routes  */}
-      {events.map((event, index) => (
-          <Route key={index} path={event.path} element={<event.component />} />
-        ))}
-
-      <Route path="/about" element={<AboutPage />} />
-
-    </Routes>
+    
   );
 }

@@ -6,7 +6,7 @@ const data = {
   Tittle: "Art and Craft",
   Description:
     "Step into a vibrant showcase of creativity at the Art and Craft Exhibition! Immerse yourself in a world of colors, textures, and imagination, where stunning paintings and intricate handicrafts bring the artistic brilliance of our students to life.",
-  Date: "DD-MM-2024",
+  Date: "21-11-2024  3:00 PM",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
   GoogleForm: "https://forms.gle/NtY3Xr4rLqV1cKdE9",
@@ -20,16 +20,12 @@ const GameRules = [
 
 const CoordinatorsName = [
   {
-    name: "N/A",
-    phone: "1234567890",
+    name: "Rishu Kumar",
+    phone: "9142363128",
   },
   {
-    name: "N/A",
-    phone: "0987654321",
-  },
-  {
-    name: "N/A",
-    phone: "0987654321",
+    name: "Swati Singh",
+    phone: "9135212317",
   },
 ];
 const ArtAndCraft = () => {

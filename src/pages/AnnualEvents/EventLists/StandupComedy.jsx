@@ -4,7 +4,7 @@ const data =  {
   BannerImage: "https://img.freepik.com/free-photo/black-white-view-theatre-performer_23-2151184700.jpg?t=st=1731957230~exp=1731960830~hmac=e4b5a13787f65da16c3495e0fdec9ddab3de97f5e30d3b30aafd99e66ef471fb&w=1800",
     Tittle: "Standup Comedy",
     Description:"With every punchline and perfectly timed pause, comedians connect with the audience, leaving them in splits. Whether it’s relatable humor, witty one-liners, or bold satire, this event is all about spreading joy and showcasing the art of humor.",
-    Date: "DD-MM-2024",
+    Date: "21-11-2024  3:00 PM",
     Prize: "Available Soon",
     Location: "Campus of GEC, Siwan",
     GoogleForm: "https://forms.gle/2bsqzJxNjTWunEieA",
@@ -18,19 +18,12 @@ const data =  {
   ];
 
   const CoordinatorsName =[
+
     {
-      "name": "N/A",
-      "role":" ",
-"phone": "1234567890"
+      "name": "Dheeraj Kumar",
+      "phone": "7362859326"
     },
-    {
-      "name": "N/A",
-      "phone": "0987654321"
-    },
-    {
-      "name": "N/A",
-      "phone": "0987654321"
-    }
+   
   ]
 
 const StandupComedy = () => {

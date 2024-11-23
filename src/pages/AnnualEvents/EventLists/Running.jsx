@@ -6,7 +6,7 @@ const data = {
   Tittle: "Running",
   Description:
     "The track is ready, the stakes are high, and every step counts. Running is not just a test of speed; it’s a celebration of determination, discipline, and perseverance. From short sprints that challenge reflexes to long-distance runs that demand stamina, this event pushes participants to their limits and beyond. As the crowd cheers and the finish line draws near, every heartbeat echoes the rhythm of the race. Whether you’re a seasoned athlete or a spirited participant, running embodies the essence of focus and sheer willpower.",
-  Date: "DD-MM-2024",
+  Date: "21-11-2024  3:00 PM",
   Prize: "Available Soon",
   Location: "Campus of GEC, Siwan",
   GoogleForm: "",
