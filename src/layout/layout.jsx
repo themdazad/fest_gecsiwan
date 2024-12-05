@@ -11,11 +11,7 @@ export const Layout = () => {
         alt="hero"
         width={""}
         height={""}/>
-      <Image className="absolute saturate-0"
-        src="/images/cultural.png"
-        alt="hero"
-        width={200}
-        height={200}/>
+      
      
     </section>
   );
