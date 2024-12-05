@@ -3,15 +3,15 @@ import { Image } from "@nextui-org/react";
 
 export const Layout = () => {
   return (
-    <section className="relative bg-zinc-950 h-screen place-content-center ">
+    <section className="relative bg-zinc-950 h-screen place-content-center rounded-b-[600px]">
      
       <Hero_Section />
-      <Image className="absolute lg:-top-60 max-sm:w-60 left-20 lg:left-[360%] saturate-0 "
+      <Image className="absolute lg:-top-80 max-sm:w-60 left-20 lg:left-[360%] saturate-0 "
         src="/images/Cricket.png"
         alt="hero"
         width={""}
         height={""}/>
-      <Image className="absolute saturate-0 "
+      <Image className="absolute saturate-0"
         src="/images/cultural.png"
         alt="hero"
         width={200}
