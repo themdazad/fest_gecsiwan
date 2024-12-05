@@ -3,7 +3,7 @@ import { Image } from "@nextui-org/react";
 
 export const Layout = () => {
   return (
-    <section className="relative bg-zinc-950 h-screen place-content-center rounded-b-[600px]">
+    <section className="relative bg-zinc-950 h-[90vh] place-content-center rounded-b-[600px]">
      
       <Hero_Section />
       <Image className="absolute lg:-top-80 max-sm:w-60 left-20 lg:left-[360%] saturate-0 "
