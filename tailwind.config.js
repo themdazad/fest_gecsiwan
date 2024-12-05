@@ -10,10 +10,13 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-pattern': "url('/images/kriditum_bg.jpg')",
-        'eventsbg': "url('/images/event_bg.png')",
+      fontFamily:{
+        custom:['rubik-doodle-triangles', 'sans-serif'],
       },
+      backgroundColor: {
+       
+      },
+
     },
   },
   darkMode: 'className', // Enable dark mode using a class

@@ -1,5 +1,4 @@
 import { User, Link } from "@nextui-org/react";
-import { Need_Assistance } from "../../layout";
 // icons
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 
@@ -12,14 +11,7 @@ export const AboutPage = () => {
       <div className="our_team  text-center flex max-sm:flex-col gap-6 justify-center ">
         <Developer />
       </div>
-      <div className="text-center text-2xl font-bold text-amber-400 underline underline-offset-4">
-        Development Support
-      </div>
-      <div className="our_team  text-center flex max-sm:flex-col gap-6 justify-center ">
-        <Development_Support />
-      </div>
-
-      <Need_Assistance />
+      
     </div>
   );
 };

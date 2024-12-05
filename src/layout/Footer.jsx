@@ -1,7 +1,7 @@
 import { Divider } from "@nextui-org/react";
 import { FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 
-export function Footer() {
+ export default function Footer() {
   return (
     <>
       <Divider />
