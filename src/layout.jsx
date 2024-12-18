@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Button, Image } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { MdMarkEmailUnread } from "react-icons/md";
-import EventTimeline from "./components/EventTimeline/EventTimeline";
 
 export const Layout = () => {
   return (
@@ -32,9 +31,7 @@ export const Layout = () => {
         transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
       ></motion.div>
-      <motion.div className="min-h-7">
-        <EventTimeline/>
-      </motion.div>
+     
       
     </div>
   );

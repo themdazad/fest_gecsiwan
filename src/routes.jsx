@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 // Pages 
 import Gallery from "./pages/Gallery";
-import Compass from "./pages/Compass";
 import { Layout } from "./layout";
 import { AboutPage } from "./pages/AboutPage/AboutPage.jsx";
 import EventSchedule from "./pages/EventSchedule";
@@ -61,7 +60,6 @@ export default function Path() {
   return (
     <Routes>
     <Route path="/" element={<Layout />} />
-    <Route path="/compass" element={<Compass />} />
     <Route path="/EventDetails" element={<EventDetails />} />
     <Route path="/about" element={<AboutPage />} />
     <Route path="/event-schedule" element={<EventSchedule />} />

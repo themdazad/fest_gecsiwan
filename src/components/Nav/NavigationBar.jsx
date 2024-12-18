@@ -11,9 +11,7 @@ export default function NavigationBar() {
     >
       <nav >
         <div className="nav-menu bg-white/20 backdrop-blur-lg px-8 shadow-xl h-full rounded-[100px] flex justify-center items-center space-x-4">
-          <NavLink to="/compass" className="text-black text-lg ">
-           🧭Compass
-          </NavLink>
+        
           <NavLink to="/" className="text-black text-lg ">
             Home
           </NavLink>
